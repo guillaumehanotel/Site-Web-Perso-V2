@@ -1,0 +1,8 @@
+RewriteEngine On
+
+## Le site ##
+RewriteRule ^index/$      index.php?page=Accueil&%{QUERY_STRING} [L]
+
+## Contact ##
+RewriteRule ^admin/$      index.php?page=Connexion&%{QUERY_SITRNG} [L]
+RewriteRule ^deconnexion/$      index.php?page=Deconnexion&%{QUERY_SITRNG} [L]

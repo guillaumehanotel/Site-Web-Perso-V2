@@ -1,2 +1,2 @@
-<h1>404</h1>
-<h3>La page n'existe pas</h3>
+<?php
+require $_dir["views"]."404.php";
