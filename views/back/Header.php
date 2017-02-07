@@ -7,11 +7,16 @@
 </head>
 <body>
 
-
-
-
 <header>
+<?php
 
-<h1>GUILLAUME HANOTEL</h1>
+   // print_r($_SESSION['connect']);
+    //echo "hello ".$_SESSION["login"];
+    echo "<br>";
+    echo "<a href='".BASE_URL."Site-Web-Perso/deconnexion/'>Deconnexion</a>";
+?>
+
+
+
 
 
