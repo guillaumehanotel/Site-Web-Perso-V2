@@ -11,7 +11,7 @@ if(isset($_SESSION["connect"])){
 
 
 
-require('views/Footer.php');
+//require('views/Footer.php');
 
 
 /*

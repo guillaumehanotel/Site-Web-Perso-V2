@@ -1,6 +1,10 @@
 #menu {
     height: 50px;
     background-color: #212121;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+
  
 }
 
@@ -29,4 +33,12 @@
 a {
     text-decoration: none;
     color: white;
+}
+
+
+
+#section0 {
+    
+    background-image: url("../img/bg1.png");
+    font-family: cursive;
 }
