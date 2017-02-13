@@ -53,12 +53,12 @@
                 
                 <!-- Partie centrale -->
                 <div class="col-xs-8 sous-menu" id="right-menu">
-                    <div class="col-xs-2 item-menu"><a href="#">GUILLAUME</a></div>
-                    <div class="col-xs-2 item-menu"><a href="#">EXPERIENCES</a></div>
-                    <div class="col-xs-2 item-menu"><a href="#">REALISATIONS</a></div>
-                    <div class="col-xs-2 item-menu"><a href="#">COMPETENCES</a></div>
-                    <div class="col-xs-2 item-menu"><a href="#">FORMATIONS</a></div>
-                    <div class="col-xs-2 item-menu"><a href="#">CONTACT</a></div>
+                    <div class="col-xs-2 item-menu"><a href="<?= BASE_URL."Site-Web-Perso/index/#firstPage" ?>">GUILLAUME</a></div>
+                    <div class="col-xs-2 item-menu"><a href="<?= BASE_URL."Site-Web-Perso/index/#secondPage" ?>">EXPERIENCES</a></div>
+                    <div class="col-xs-2 item-menu"><a href="<?= BASE_URL."Site-Web-Perso/index/#3rdPage" ?>">REALISATIONS</a></div>
+                    <div class="col-xs-2 item-menu"><a href="<?= BASE_URL."Site-Web-Perso/index/#4thpage" ?>">COMPETENCES</a></div>
+                    <div class="col-xs-2 item-menu"><a href="<?= BASE_URL."Site-Web-Perso/index/#lastPage" ?>">FORMATIONS</a></div>
+                    <div class="col-xs-2 item-menu"><a href="<?= BASE_URL."Site-Web-Perso/index/#undefined" ?>">CONTACT</a></div>
                 </div>
                 
                 <!-- Partie droite -->

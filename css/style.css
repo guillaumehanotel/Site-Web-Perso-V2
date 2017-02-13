@@ -1,6 +1,7 @@
 #menu {
     height: 50px;
-    background-color: #212121;
+  /*  background-color: #212121;*/
+    background-color: #1E2327;
     position: fixed;
     z-index: 50;
     width: 100%;
@@ -32,13 +33,94 @@
 
 a {
     text-decoration: none;
+    color: #9A9C9E;
+}
+
+a:hover {
+    text-decoration: none;
     color: white;
 }
 
 
 
+
+
+
+
+/** BODY **/
+
+
+body {
+    color: white;
+}
+
+
+
+
+.section h2 {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+
+
+
+
 #section0 {
     
-    background-image: url("../img/bg1.png");
+    background: url("../img/bg1.png") no-repeat center ;
+    background-size: cover;
+    font-family: cursive;
+}
+
+
+
+
+
+/* EXPERIENCES PROFESSIONNELLES */
+
+#section1 {
+    background: url("../img/bg8.png")no-repeat center ;
+    background-size: cover;
+    font-family: cursive;
+}
+
+#section1 .exp {
+    background-color: #1E2327;
+    width: 32%;
+    margin-left: 1%;
+    margin-right: 1px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+#section2 {
+    background: url("../img/bg3.png") no-repeat center ;
+    background-size: cover;
+    font-family: cursive;
+}
+
+#section3 {
+    background: url("../img/bg20.png") no-repeat center ;
+    background-size: cover;
+    font-family: cursive;
+}
+
+#section4 {
+    background: url("../img/bg19.png") no-repeat center;
+    background-size: cover;
+    font-family: cursive;
+}
+
+#section5 {
+    background: url("../img/bg9.png") no-repeat center ;
+    background-size: cover;
     font-family: cursive;
 }
