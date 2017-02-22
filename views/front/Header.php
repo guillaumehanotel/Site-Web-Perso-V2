@@ -12,12 +12,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= BASE_URL."Site-Web-Perso/bootstrap/css/bootstrap.min.css " ?>" rel="stylesheet" type="text/css" />
     
+    <!-- Materialize CSS -->
+    <!--
+    <link rel="stylesheet" href="<?/*= BASE_URL."blog_tmp/materialize/css/materialize.css" */?>"/>
+    -->
     <!-- fullPage CSS -->
-    
     <link href="<?= BASE_URL."Site-Web-Perso/js/fullPage.js-master/jquery.fullPage.css "; ?>" rel="stylesheet" type="text/css" />
     
     <!-- mon CSS -->
     <link href="<?= BASE_URL."Site-Web-Perso/css/style.css "; ?>" rel="stylesheet" type="text/css" />
+    
+    
+    
+    
+
+    
+    
+    
     
     <!-------- FICHIER JS --------->
     
@@ -26,15 +37,21 @@
     
     <!-- Jquery UI -->
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <!-- Bootstrap JS -->
     
+    <!-- Bootstrap JS -->
     <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso/bootstrap/js/bootstrap.js" ?>"></script>
     
+    <!-- Materialize JS -->
+    <!--
+    <script type="application/javascript" src="<?/*=BASE_URL."blog_tmp/materialize/js/materialize.js"*/ ?>"></script>
+    -->
     <!-- fullPage JS -->
     <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso/js/fullPage.js-master/jquery.fullPage.js" ?>"></script>
     
     <!-- mon JS -->
     <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso/js/javascript.js" ?>"></script>
+    
+    
     
 
     
