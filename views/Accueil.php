@@ -15,6 +15,7 @@
     
     <div id="section0" class="section">
         <h2>Guillaume HANOTEL</h2>
+    <!--    <img src="<?/*= BASE_URL."Site-Web-Perso/img/bg1.png" */?>" class="" alt="Responsive image">-->
     </div>
     
     
@@ -29,25 +30,25 @@
            
               
                
-                <div class="exp col-xs-4">
+                <div class="exp col-md-4 col-xs-12">
                     <h3>Intitulé</h3>
-                    
+                   <!-- 
                     <div class="row">
-                        <p class="col-xs-4">Stage Bac+1</p>
-                        <p class="col-xs-4">Bordeaux</p>
-                        <p class="col-xs-4">Juin-Aout 2016</p>
+                        <p class="col-md-4 col-xs-12">Stage Bac+1</p>
+                        <p class="col-md-3 col-xs-12">Bordeaux</p>
+                        <p class="col-md-5 col-xs-12">Juin-Aout 2016</p>
                     </div>
                     
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, cum, consequatur. Beatae atque, sit quaerat numquam delectus, quia blanditiis repellendus quidem provident, saepe, pariatur repudiandae in quod voluptas! Voluptatum, perspiciatis.</p>
                     
-                    <a href="">Lien vers le blog du stage</a>
-                    
+                    <a class="text-center" href="">Lien vers le blog du stage</a>
+                    -->
                 </div>
                 
                 
-                 <div class="exp col-xs-4">
+                 <div class="exp col-xs-12 col-md-4">
                     <h3>Intitulé</h3>
-                    
+                    <!--
                     <div class="row">
                         <p class="col-xs-4">Stage Bac+1</p>
                         <p class="col-xs-4">Bordeaux</p>
@@ -57,13 +58,13 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, cum, consequatur. Beatae atque, sit quaerat numquam delectus, quia blanditiis repellendus quidem provident, saepe, pariatur repudiandae in quod voluptas! Voluptatum, perspiciatis.</p>
                     
                     <a href="">Lien vers le blog du stage</a>
-                    
+                    -->
                 </div>       
                 
                 
-                <div class="exp col-xs-4">
+                <div class="exp col-md-4 col-xs-12">
                     <h3>Intitulé</h3>
-                    
+                    <!--
                     <div class="row">
                         <p class="col-xs-4">Stage Bac+1</p>
                         <p class="col-xs-4">Bordeaux</p>
@@ -73,7 +74,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, cum, consequatur. Beatae atque, sit quaerat numquam delectus, quia blanditiis repellendus quidem provident, saepe, pariatur repudiandae in quod voluptas! Voluptatum, perspiciatis.</p>
                     
                     <a href="">Lien vers le blog du stage</a>
-                    
+                    -->
                 </div>           
                 
                 

@@ -9,18 +9,6 @@
  
 }
 
-#left-menu {
-
-}
-
-#right-menu {
-
-}
-
-#admin-menu {
-    
-}
-
 
 .sous-menu{
     height: 50px;
@@ -40,6 +28,55 @@ a:hover {
     text-decoration: none;
     color: white;
 }
+
+
+
+
+
+/* MENU */
+
+
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 50px;
+    max-height: 50px;
+}
+
+.nav li {
+	display: inline;
+   /* text-align: center;*/
+
+}
+
+.navbar-inverse .navbar-nav > li {
+
+	margin-left: 50px;
+    line-height: 50px;
+   /* background-color: black;*/
+}
+
+
+
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+
+ul.nav.navbar-nav {
+    background-color: #1E2327;
+}
+    
+
+
+
+
+
+
 
 
 
@@ -72,7 +109,28 @@ body {
     background: url("../img/bg1.png") no-repeat center ;
     background-size: cover;
     font-family: cursive;
+    
 }
+/*
+#section0 img {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+}
+*/
+
+
+#section0 h2 {
+    position: relative;
+    z-index: 20;
+}
+
+
+
+
+
 
 
 
@@ -81,7 +139,8 @@ body {
 /* EXPERIENCES PROFESSIONNELLES */
 
 #section1 {
-    background: url("../img/bg8.png")no-repeat center ;
+    
+    background: url("../img/bg8.png")no-repeat center;
     background-size: cover;
     font-family: cursive;
 }
@@ -91,7 +150,37 @@ body {
     width: 32%;
     margin-left: 1%;
     margin-right: 1px;
-    height: 500px;
+    height: 100px;
+    border: solid 1px black;   
+
+    
+}
+
+#section1 .exp p {
+overflow: hidden;
+}
+
+
+
+
+#section1 .exp h3{
+
+    text-align: center;
+    margin-bottom: 20px;    
+}
+
+
+#section1 .exp .row{
+    margin-bottom: 20px; 
+}
+
+
+#section1 .exp a{
+
+    margin-left: 20px;
+    position: absolute;
+    bottom: 20px;
+    
 }
 
 
@@ -99,6 +188,13 @@ body {
 
 
 
+
+
+
+
+
+
+/* REALISATIONS */
 
 
 #section2 {
@@ -106,6 +202,19 @@ body {
     background-size: cover;
     font-family: cursive;
 }
+
+#section2 {
+    
+}
+
+
+
+
+
+
+
+
+
 
 #section3 {
     background: url("../img/bg20.png") no-repeat center ;
@@ -124,3 +233,29 @@ body {
     background-size: cover;
     font-family: cursive;
 }
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width :1200px){
+    
+    
+    
+    .navbar-inverse .navbar-nav > li {
+        margin-left: 50px;
+        width: 70px;
+    }
+    
+    
+
+    
+    
+}
+
+
+
+
+
+
