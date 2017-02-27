@@ -129,8 +129,51 @@ main {
 }
 
 #content {
+    
+    padding-left: 20px;
     clear: both;
 }
+
+
+#content #spantitre {
+    
+}
+
+
+#content #spantitre #intitule {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 25px;
+    color: #888;
+
+
+}
+
+#content #spantitre h4 {
+   
+    font-weight: 500;
+    font-size: 29px;
+    display: inline-block;  
+    margin-left: 20px;
+    
+    
+}
+
+
+
+#content #spandate {
+    padding-right: 30px;
+    color: #888;
+
+}
+
+@media only screen and (max-width: 600px) { 
+    
+    .row.valign-wrapper { 
+        display: inherit; 
+    }
+}
+
 
 
 

@@ -68,7 +68,28 @@
             
             <div id="content">
                 
-                <p>ef</p>
+                
+                
+                 
+                <div class="row valign-wrapper">
+                  
+                  
+                   <div id="spantitre" class="col s12 m9 l7">
+                        <p id="intitule">- Stage -</p>
+                        <h4>Développeur Web</h4>
+                    </div>
+                    
+                    
+                    <div id="spandate" class="col s12 m3 l5">
+                        <p class="center-align">Juillet - Aout 2016   <br>(2 mois)</p>
+                    </div>
+                    
+                </div>
+              
+                
+                
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quas vitae veniam adipisci exercitationem rerum, eos voluptates, ducimus quisquam saepe. Et dolorum blanditiis veniam doloribus delectus, quos, dolor iste reiciendis?</p>
                 
             </div>
             
@@ -93,6 +114,13 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
     <div id="section2" class="section container">
        
        <h2 id="titre2">REALISATIONS</h2>
@@ -102,6 +130,13 @@
        
        <div class="divider"></div>
     </div>
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -116,6 +151,13 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
     <div id="section4" class="section container">
         
         <h2 id="titre4">FORMATIONS</h2>
@@ -124,6 +166,14 @@
         
         <div class="divider"></div>
     </div>
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     <div id="section5" class="section container">
