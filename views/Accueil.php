@@ -32,11 +32,11 @@
         <h3>A Propos de Moi...</h3>
         
         <div class="row">
-            <p class="col s8 offset-s2"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quos laboriosam ut molestias laudantium voluptates excepturi ullam adipisci soluta, et, pariatur dolorum quaerat reiciendis corrupti perspiciatis, explicabo nostrum, iure minima.</span>
-            <span>Quam sit numquam blanditiis quos amet velit eum at dolorem ea voluptatum quaerat itaque magnam voluptates sint placeat, voluptatibus et id, hic ad sapiente vel ut quasi. Iure, quasi, et.</span>
-            <span>Nisi voluptates vel quisquam autem quo. Odit mollitia eaque placeat inventore adipisci alias quo aut quos molestias, deleniti quia impedit debitis, quis dignissimos molestiae voluptatibus voluptatum dolorem veniam. Rem, quod.</span>
-            <span>Est tenetur vel quos quis eligendi corporis, sit cum numquam porro labore eum, maxime atque a odit modi? Officia consequatur dolor et porro dolorum nesciunt neque quas magnam obcaecati, quibusdam!</span>
-            <span>Soluta odio adipisci dicta distinctio? Aperiam magnam non quis numquam voluptate earum, laudantium dolores enim, eveniet magni, qui harum voluptates. Voluptatum illum excepturi quibusdam, ab ad eos beatae ea nihil.</span></p>
+            <p class="col s10 offset-s1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quos laboriosam ut molestias laudantium voluptates excepturi ullam adipisci soluta, et, pariatur dolorum quaerat reiciendis corrupti perspiciatis, explicabo nostrum, iure minima.
+            Quam sit numquam blanditiis quos amet velit eum at dolorem ea voluptatum quaerat itaque magnam voluptates sint placeat, voluptatibus et id, hic ad sapiente vel ut quasi. Iure, quasi, et.
+            Nisi voluptates vel quisquam autem quo. Odit mollitia eaque placeat inventore adipisci alias quo aut quos molestias, deleniti quia impedit debitis, quis dignissimos molestiae voluptatibus voluptatum dolorem veniam. Rem, quod.
+            Est tenetur vel quos quis eligendi corporis, sit cum numquam porro labore eum, maxime atque a odit modi? Officia consequatur dolor et porro dolorum nesciunt neque quas magnam obcaecati, quibusdam!
+            Soluta odio adipisci dicta distinctio? Aperiam magnam non quis numquam voluptate earum, laudantium dolores enim, eveniet magni, qui harum voluptates. Voluptatum illum excepturi quibusdam, ab ad eos beatae ea nihil.</p>
         
         </div>
         
@@ -55,55 +55,95 @@
         <div id="toplink1" class="toplink"></div>
         
         
+        
+        
+        
+        
         <div class="expe">
-           
-           
-            
-            <div id="border-top">
-                <div id="top-left"></div>
-                <div id="top-right"></div>    
+           <div id="border-top">
+                <div class="bordure" id="top-left"></div>
+                <div class="bordure" id="top-right"></div>    
             </div>
-            
-            
-            
+     
             <div id="content">
                 
-                
-                
-                 
+
                 <div class="row valign-wrapper">
-                  
-                  
-                   <div id="spantitre" class="col s12 m9 l7">
-                        <p id="intitule">- Stage -</p>
-                        <h4>Développeur Web</h4>
-                    </div>
-                    
-                    
-                    <div id="spandate" class="col s12 m3 l5">
-                        <p class="center-align">Juillet - Aout 2016   <br>(2 mois)</p>
-                    </div>
+                   
+                        <p id="intitule" class="col l3 m3 s12">- Stage -</p>
+                        
+                        <h4 id="titre" class="col l5 m6 s12">Développeur Web</h4>
+                        
+                        <p id="date" class="col l3 offset-l1 m3  s12">Juillet - Aout 2016   <br>(2 mois)</p>
                     
                 </div>
-              
                 
-                
-                
+                <div class="row">
+                    <p id="entreprise" class="col l2">CDiscount</p>
+                    <p id="ville" class="col l2">Bordeaux(33)</p>
+                </div>
+                   
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quas vitae veniam adipisci exercitationem rerum, eos voluptates, ducimus quisquam saepe. Et dolorum blanditiis veniam doloribus delectus, quos, dolor iste reiciendis?</p>
                 
             </div>
+   
             
-            
-            
-            
+            <div id="border-bottom">
+                <div class="bordure" id="bottom-left"></div>
+                <div class="bordure" id="bottom-right"></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="expe">
+           <div id="border-top">
+                <div id="top-left"></div>
+                <div id="top-right"></div>    
+            </div>
+     
+            <div id="content">
+                
+
+                <div class="row valign-wrapper">
+                   
+                        <p id="intitule" class="col l3 m3 s12">- Stage -</p>
+                        
+                        <h4 id="titre" class="col l5 m6 s12">Développeur Web</h4>
+                        
+                        <p id="date" class="col l3 offset-l1 m3  s12">Juillet - Aout 2016   <br>(2 mois)</p>
+                    
+                </div>
+                
+                <div class="row">
+                    <p id="entreprise" class="col l2">CDiscount</p>
+                    <p id="ville" class="col l2">Bordeaux(33)</p>
+                </div>
+                   
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quas vitae veniam adipisci exercitationem rerum, eos voluptates, ducimus quisquam saepe. Et dolorum blanditiis veniam doloribus delectus, quos, dolor iste reiciendis?</p>
+                
+            </div>
+   
             
             <div id="border-bottom">
                 <div id="bottom-left"></div>
                 <div id="bottom-right"></div>
+                <div class="clear"></div>
             </div>
-            
-
-        </div>
+        </div>       
+        
+        
+        
+        
+        
         
         
         

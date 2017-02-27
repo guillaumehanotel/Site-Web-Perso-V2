@@ -38,13 +38,6 @@ nav ul{
 
 
 
-
-
-
-
-
-
-
 /** BODY **/
 
 
@@ -128,6 +121,15 @@ main {
 
 }
 
+
+.expe {
+    
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+
 #content {
     
     padding-left: 20px;
@@ -140,7 +142,7 @@ main {
 }
 
 
-#content #spantitre #intitule {
+#content #intitule {
     display: inline-block;
     font-weight: 300;
     font-size: 25px;
@@ -149,7 +151,7 @@ main {
 
 }
 
-#content #spantitre h4 {
+#content #titre h4 {
    
     font-weight: 500;
     font-size: 29px;
@@ -159,13 +161,26 @@ main {
     
 }
 
-
-
-#content #spandate {
+#content #date {
     padding-right: 30px;
     color: #888;
 
 }
+
+#content #entreprise {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#content #ville {
+    font-style: italic;
+    font-size: 18px;
+}
+
+
+
+
+
 
 @media only screen and (max-width: 600px) { 
     
@@ -179,8 +194,8 @@ main {
 
 #border-top #top-left {
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 150px;
+    height: 50px;
     position: relative;
     float: left;
 
@@ -196,8 +211,8 @@ main {
 #border-top #top-right {
     float: right;
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 150px;
+    height: 50px;
     
     position: relative;
     
@@ -217,8 +232,8 @@ main {
 #border-bottom #bottom-left {
     display: block;
     float: left;
-    width: 20px;
-    height: 20px;
+    width: 150px;
+    height: 50px;
     position: relative;
     
     top: -10px;
@@ -232,8 +247,8 @@ main {
 
 #border-bottom #bottom-right {
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 150px;
+    height: 50px;
     float: right;
     position: relative;
     
@@ -246,7 +261,9 @@ main {
 
 
 
-
+.clear {
+    clear: both;
+}
 
 
 
@@ -295,6 +312,64 @@ main {
  
     
 }
+
+
+@media screen and (max-width: 600px) {
+ 
+   .section h2 {
+        font-size: 30px;
+    }
+
+ 
+    .section h3 {
+        font-size: 25px;
+    }
+    
+    
+    #section0 p {
+        font-size: 14px;
+    }
+    
+    
+    #border-bottom #bottom-left {
+        height: 150px;
+        width: 50px;
+        top : -120px;
+    }
+    
+    
+    
+    #border-bottom #bottom-right {
+        height: 150px;
+        width: 50px;
+        top : -120px;
+    }
+    
+    
+    #border-top #top-left {
+        height: 150px;
+        width: 50px;
+        bottom : -120px;
+    }
+    
+    #border-top #top-right {
+        height: 150px;
+        width: 50px;
+        bottom : -120px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
 
 
 
