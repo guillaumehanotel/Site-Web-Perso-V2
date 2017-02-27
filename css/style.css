@@ -1,5 +1,5 @@
-#menu {
-    height: 50px;
+#menu1 {
+   /* height: 60px;*/
   /*  background-color: #212121;*/
     background-color: #1E2327;
     position: fixed;
@@ -9,14 +9,16 @@
  
 }
 
+  .nav-fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-bottom: 0px;
+    z-index: 997;
+  }
 
-.sous-menu{
-    height: 50px;
-}
 
-.item-menu {
-    line-height: 50px;
-}
 
 
 a {
@@ -33,44 +35,13 @@ a:hover {
 
 
 
-/* MENU */
 
 
-.navbar, .navbar-inverse {
-	border-radius: 0;
-	border: none;
-	margin-bottom: 0;
-	min-height: 50px;
-    max-height: 50px;
+
+nav ul{
+  transform: translateX(12%);
+  webkit-transform: translateX(-12%);
 }
-
-.nav li {
-	display: inline;
-   /* text-align: center;*/
-
-}
-
-.navbar-inverse .navbar-nav > li {
-
-	margin-left: 50px;
-    line-height: 50px;
-   /* background-color: black;*/
-}
-
-
-
-
-.navbar-inverse .navbar-nav li a:hover {
-	background-color: #444444;
-	transition: 0.7s all linear;
-	height: 100%;
-}
-
-
-ul.nav.navbar-nav {
-    background-color: #1E2327;
-}
-    
 
 
 
@@ -93,11 +64,39 @@ body {
 
 
 
+main {
+    position: relative;
+    top: 60px;
+}
+
+
+
+.toplink {
+    height: 20px;
+    width: 20px;
+    /*background-color: white;*/
+    position: relative;
+    bottom : 75px;
+}
+
+
+
+
+
+
+
+
+.section {
+    min-height: 720px;
+}
+
+
 
 .section h2 {
     text-align: center;
     position: relative;
     bottom: 30px;
+    
 }
 
 
@@ -111,29 +110,6 @@ body {
     font-family: cursive;
     
 }
-/*
-#section0 img {
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 10;
-}
-*/
-
-
-#section0 h2 {
-    position: relative;
-    z-index: 20;
-}
-
-
-
-
-
-
-
-
 
 
 /* EXPERIENCES PROFESSIONNELLES */
@@ -144,51 +120,6 @@ body {
     background-size: cover;
     font-family: cursive;
 }
-
-#section1 .exp {
-    background-color: #1E2327;
-    width: 300px;
-    margin-left: 1%;
-    margin-right: 1px;
-    height: 500px;
-    border: solid 1px black;   
-
-    
-}
-
-#section1 .exp p {
-overflow: hidden;
-}
-
-
-
-
-#section1 .exp h3{
-
-    text-align: center;
-    margin-bottom: 20px;    
-}
-
-
-#section1 .exp .row{
-    margin-bottom: 20px; 
-}
-
-
-#section1 .exp a{
-
-    margin-left: 20px;
-    position: absolute;
-    bottom: 20px;
-    
-}
-
-
-
-
-
-
-
 
 
 
@@ -203,31 +134,25 @@ overflow: hidden;
     font-family: cursive;
 }
 
-#section2 {
-    
-}
 
 
 
-
-
-
-
-
-
-
+/* COMPETENCES */
 #section3 {
     background: url("../img/bg20.png") no-repeat center ;
     background-size: cover;
     font-family: cursive;
+
 }
 
+/* FORMATIONS */
 #section4 {
     background: url("../img/bg19.png") no-repeat center;
     background-size: cover;
     font-family: cursive;
 }
 
+/* CONTACT */
 #section5 {
     background: url("../img/bg9.png") no-repeat center ;
     background-size: cover;
@@ -236,23 +161,6 @@ overflow: hidden;
 
 
 
-
-
-
-@media screen and (min-width: 768px) and (max-width :1200px){
-    
-    
-    
-    .navbar-inverse .navbar-nav > li {
-        margin-left: 50px;
-        width: 70px;
-    }
-    
-    
-
-    
-    
-}
 
 
 

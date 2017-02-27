@@ -9,47 +9,35 @@
     
     <!-------- FICHIER CSS --------->
     
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?= BASE_URL."Site-Web-Perso/bootstrap/css/bootstrap.min.css " ?>" rel="stylesheet" type="text/css" />
-    
-    <!-- Materialize CSS -->
-    <!--
-    <link rel="stylesheet" href="<?/*= BASE_URL."blog_tmp/materialize/css/materialize.css" */?>"/>
-    -->
-    <!-- fullPage CSS -->
-    <link href="<?= BASE_URL."Site-Web-Perso/js/fullPage.js-master/jquery.fullPage.css "; ?>" rel="stylesheet" type="text/css" />
-    
+    <!-- Materialize CSS -->  
+    <link rel="stylesheet" href="<?= BASE_URL."blog_tmp/materialize/css/materialize.css" ?>"/>
+     
     <!-- mon CSS -->
-    <link href="<?= BASE_URL."Site-Web-Perso/css/style.css "; ?>" rel="stylesheet" type="text/css" />
+  <!--  <link href="<?/*= BASE_URL."Site-Web-Perso-V2/css/style.css ";*/ ?>" rel="stylesheet" type="text/css" />-->
     
+    <!-- mon CSS 2, sans les images en fond -->
+    <link href="<?= BASE_URL."Site-Web-Perso-V2/css/style2.css "; ?>" rel="stylesheet" type="text/css" />
     
-    
-    
-
-    
-    
+    <!-- ICONES -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     
     <!-------- FICHIER JS --------->
     
     <!-- Jquery -->
-    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso/bootstrap/js/jquery-3.1.1.min.js" ?>"></script>
+    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso-V2/bootstrap/js/jquery-3.1.1.min.js" ?>"></script>
     
     <!-- Jquery UI -->
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     
-    <!-- Bootstrap JS -->
-    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso/bootstrap/js/bootstrap.js" ?>"></script>
+    <!-- Scrollpsy JS -->
+    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso-V2/js/scrollspy/scrollspy.js" ?>"></script>
     
     <!-- Materialize JS -->
-    <!--
-    <script type="application/javascript" src="<?/*=BASE_URL."blog_tmp/materialize/js/materialize.js"*/ ?>"></script>
-    -->
-    <!-- fullPage JS -->
-    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso/js/fullPage.js-master/jquery.fullPage.js" ?>"></script>
-    
+    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso-V2/materialize/js/materialize.js" ?>"></script>
+ 
     <!-- mon JS -->
-    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso/js/javascript.js" ?>"></script>
+    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso-V2/js/javascript.js" ?>"></script>
     
     
     
@@ -62,34 +50,40 @@
 <body>
     <header>
        
-       
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="<?= BASE_URL."Site-Web-Perso/index/#firstPage" ?>">GUILLAUME</a></li>
-                <li><a href="<?= BASE_URL."Site-Web-Perso/index/#secondPage" ?>">EXPERIENCES</a></li>
-                <li><a href="<?= BASE_URL."Site-Web-Perso/index/#3rdPage" ?>">REALISATIONS</a></li>
-                <li><a href="<?= BASE_URL."Site-Web-Perso/index/#4thpage" ?>">COMPETENCES</a></li>
-                <li><a href="<?= BASE_URL."Site-Web-Perso/index/#lastPage" ?>">FORMATIONS</a></li>
-                <li><a href="<?= BASE_URL."Site-Web-Perso/index/#undefined" ?>">CONTACT</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+        <nav id="menu1" class="navbar-fixed">
+            <div class="nav-content nav-wrapper container">
+         
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+           
+           
+                <ul class="tabs-transparent hide-on-med-and-down">
+        
+                    <li><a id="linksection0" href="#toplink0">PRESENTATION</a></li>
+                    <li><a id="linksection1" href="#toplink1">EXPERIENCES</a></li>              
+                    <li><a id="linksection2" href="#toplink2">REALISATIONS</a></li> 
+                    <li><a id="linksection3" href="#toplink3">COMPETENCES</a></li>           
+                    <li><a id="linksection4" href="#toplink4">FORMATIONS</a></li>         
+                    <li><a id="linksection5" href="#toplink5">CONTACT</a></li>
 
- 
+                </ul>      
        
+            </div>
+        
+        </nav>
+
+        <!-- MENU MOBILE -->
+        <ul class="side-nav" id="mobile-demo">
+
+            <li><a href="#toplink0">PRESENTATION</a></li>
+            <li><a href="#toplink1">EXPERIENCES</a></li>              
+            <li><a href="#toplink2">REALISATIONS</a></li> 
+            <li><a href="#toplink3">COMPETENCES</a></li>           
+            <li><a href="#toplink4">FORMATIONS</a></li>         
+            <li><a href="#toplink5">CONTACT</a></li>
+
+        </ul>
+
        
 
        

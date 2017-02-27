@@ -1,0 +1,172 @@
+
+#menu1 {
+
+    background-color: #24292E;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+
+
+ 
+}
+
+.nav-fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-bottom: 0px;
+    z-index: 997;
+}
+
+
+
+#menu1 li:hover {
+    background-color: #212121;
+
+}
+
+
+
+nav ul{
+  transform: translateX(12%);
+  webkit-transform: translateX(-12%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** BODY **/
+
+
+body {
+
+}
+
+
+
+main {
+    position: relative;
+    top: 60px;
+}
+
+
+
+.toplink {
+    
+    height: 1px;
+    width: 1px;
+    position:relative;
+    top : 100px;
+
+}
+
+
+
+
+
+
+
+
+.section {
+    min-height: 720px;
+}
+
+
+
+.section h2 {
+    text-align: center;
+
+
+}
+
+
+
+
+/* PRESENTATION */
+#section0 img  {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+
+#section0 p {
+    font-size: 18px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* EXPERIENCES PROFESSIONNELLES */
+#section1 {
+    
+
+}
+
+
+
+/* REALISATIONS */
+#section2 {
+
+}
+
+
+
+
+/* COMPETENCES */
+#section3 {
+
+}
+
+
+
+
+/* FORMATIONS */
+#section4 {
+
+}
+
+
+
+
+
+
+/* CONTACT */
+#section5 {
+
+}
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1060px) {
+ 
+    #menu1 a {
+        font-size : 12px;
+    }
+ 
+    
+}
+
+
+
+
