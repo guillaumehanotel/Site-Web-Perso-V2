@@ -71,23 +71,23 @@ main {
 }
 
 
-
-
-
-
-
+/*
 
 .section {
     min-height: 720px;
 }
 
-
+*/
 
 .section h2 {
     text-align: center;
-
-
 }
+
+
+.divider {
+    margin-top: 190px;
+}
+
 
 
 
@@ -107,7 +107,13 @@ main {
 }
 
 
+#section0 #apropos {
+    
+}
 
+#section0 h3 {
+    margin-top: 50px;
+}
 
 
 
@@ -121,6 +127,86 @@ main {
     
 
 }
+
+#content {
+    clear: both;
+}
+
+
+
+#border-top #top-left {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    float: left;
+
+    bottom: -10px;
+    left: -10px;
+    
+    
+    border-top: 2px solid #E0E0E0;
+    border-left: 2px solid #E0E0E0;
+
+}
+
+#border-top #top-right {
+    float: right;
+    display: block;
+    width: 20px;
+    height: 20px;
+    
+    position: relative;
+    
+    
+    bottom: -10px;
+    right: -10px;
+    
+    
+    border-top: 2px solid #E0E0E0;
+    border-right: 2px solid #E0E0E0;
+}
+
+
+
+
+
+#border-bottom #bottom-left {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    
+    top: -10px;
+    left: -10px;
+    
+    border-bottom: 2px solid #E0E0E0;
+    border-left: 2px solid #E0E0E0;
+}
+
+
+
+#border-bottom #bottom-right {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    position: relative;
+    
+    top: -10px;
+    right: -10px;
+    
+    border-bottom: 2px solid #E0E0E0;
+    border-right: 2px solid #E0E0E0;
+}
+
+
+
+
+
+
+
 
 
 
