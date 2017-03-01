@@ -487,6 +487,95 @@ main {
 }
 
 
+#section5 form {
+    background-color: #24292e;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#section5 form {
+    color: white;
+}
+
+
+/* COULEUR INPUT */
+
+
+
+
+    /* label color */
+   .input-field label {
+     color: #e0e0e0;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #e0e0e0;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #e0e0e0;
+   }
+
+
+
+
+   /* label focus color */
+   .input-field input[type=email]:focus + label {
+     color: #e0e0e0;
+   }
+   /* label underline focus color */
+   .input-field input[type=email]:focus {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+   /* valid color */
+   .input-field input[type=email].valid {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+   /* invalid color */
+   .input-field input[type=email].invalid {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+
+
+
+   /* label focus color */
+   .input-field textarea[class=materialize-textarea]:focus + label {
+     color: #e0e0e0;
+   }
+   /* label underline focus color */
+   .input-field textarea[class=materialize-textarea]:focus {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+   /* valid color */
+   .input-field textarea[class=materialize-textarea].valid {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+   /* invalid color */
+   .input-field textarea[class=materialize-textarea].invalid {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+
 
 
 

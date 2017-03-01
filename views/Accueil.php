@@ -314,7 +314,6 @@
                     <a href="https://formations.univ-larochelle.fr/licence-informatique" class="black-text" target="_blank">Lien de la formation</a>
                 </div>
                 
-                
             </div>
             
             
@@ -323,15 +322,6 @@
             
             
         </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         
         <div class="divider"></div>
@@ -345,8 +335,83 @@
     <div id="section5" class="section container">
         <h2 id="titre5">CONTACT</h2>
         <div id="toplink5" class="toplink"></div>
+        
+        <div class="row">
+        
+            <form method="post" action="" class="col l8 s12 offset-l2">
+
+
+                <div class="row">
+                    <div class="input-field col m6 s10 offset-m3 offset-s1">
+                        <input id="nom" name="nom" type="text" class="validate"/>
+                        <label for="title">Nom</label>
+
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="input-field col m6 s10 offset-m3 offset-s1">
+
+                        <input id="mail" name="mail" type="email" class="validate"/>
+                        <label for="mail">Adresse Mail</label>
+
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="input-field col m6 s10 offset-m3 offset-s1">
+                        <input id="sujet" name="sujet" type="text" class="validate"/>
+                        <label for="sujet">Sujet</label>
+
+                    </div>
+                </div>           
+           
+           
+               <div class="row">
+                   
+                   <div class="input-field col m8 s12 offset-m2 ">
+                   
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Message</label>
+                   
+                   
+                   
+                   
+                   
+                   </div>
+                   
+               </div>
+           
+           
+           
+           
+           
+           
+            </form>
+        
+        
+        </div>
+        
+        
         <div class="divider"></div>
     </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </main>
 </body>
 
