@@ -84,4 +84,44 @@ $(document).ready(function() {
             
 
     
+    
+    
+    $("#section2 .contour").mouseenter(function(){
+        
+
+        $(this).find("div").fadeIn("slow");
+        
+
+                         
+                 
+    });
+    
+    $("#section2 .contour").mouseleave(function(){
+                         
+        $(this).find("div").fadeOut("slow");
+     
+                 
+    });
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 });
