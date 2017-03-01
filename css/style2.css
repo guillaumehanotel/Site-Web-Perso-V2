@@ -1,4 +1,7 @@
 
+
+/* MENU */
+
 #menu1 {
 
     background-color: #24292E;
@@ -38,6 +41,17 @@ nav ul{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /** BODY **/
 
 
@@ -64,13 +78,6 @@ main {
 }
 
 
-/*
-
-.section {
-    min-height: 720px;
-}
-
-*/
 
 .section h2 {
     text-align: center;
@@ -85,23 +92,19 @@ main {
 
 
 
+
+
+
+
+
 /* PRESENTATION */
 #section0 img  {
     margin-top: 25px;
     margin-bottom: 25px;
-
 }
-
 
 #section0 p {
     font-size: 18px;
-    
-    
-}
-
-
-#section0 #apropos {
-    
 }
 
 #section0 h3 {
@@ -115,11 +118,10 @@ main {
 
 
 
-/* EXPERIENCES PROFESSIONNELLES */
-#section1 {
-    
 
-}
+
+
+/* EXPERIENCES PROFESSIONNELLES */
 
 
 .expe {
@@ -137,34 +139,23 @@ main {
 }
 
 
-#content #spantitre {
-    
-}
-
-
 #content #intitule {
     display: inline-block;
     font-weight: 300;
     font-size: 25px;
     color: #888;
-
-
 }
 
 #content #titre h4 {
-   
     font-weight: 500;
     font-size: 29px;
     display: inline-block;  
     margin-left: 20px;
-    
-    
 }
 
 #content #date {
     padding-right: 30px;
     color: #888;
-
 }
 
 #content #entreprise {
@@ -191,6 +182,7 @@ main {
 
 
 
+/* bordure tableau */
 
 #border-top #top-left {
     display: block;
@@ -270,6 +262,14 @@ main {
 
 
 
+
+
+
+
+
+
+
+
 /* REALISATIONS */
 #section2 .real {
 
@@ -297,11 +297,7 @@ main {
     border: 1px solid #E0E0E0;
     position: relative;
     z-index: -9;
-    
-    
-    
     float: left;
-
 }
 
 
@@ -314,39 +310,28 @@ main {
 #section2 .back {
     
     float: left;
-    
-    
-    
     width: 200px;
     height: 200px;
     background-color: #212121;
     opacity: 0.8;
     position: absolute;
-    
-    /*bottom: 206px;*/
-   
     margin-left: auto;
     margin-right: auto;
     z-index: 10;
     
 }
 
+
 #section2 .desc {
     float: left;
-    
-
     width: 200px;
     height: 200px; 
     position: absolute;
-    
-    /*bottom: 413px;*/
-    
     margin-left: auto;
     margin-right: auto;
     z-index: 15;
-    
-    
 }
+
 
 
 #section2 .desc > * {
@@ -369,10 +354,80 @@ main {
 
 
 
+
+
+
+
+
+
+
 /* COMPETENCES */
 #section3 {
 
 }
+
+#section3 #row_skill {
+    margin-top: 20px;
+}
+
+
+#section3 .tab_skill {
+    
+    border-right: 2px solid #E0E0E0;
+    border-left: 2px solid #E0E0E0;
+    min-height: 400px;
+    height: auto;
+    margin-top: 25px;
+    
+}
+
+#section3 .tab_skill p {
+    text-align: center;
+    padding-left: 2px;
+}
+
+#section3 .tab_skill #skill {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+#section3 .title_skill {
+    
+    height: 100px;
+    border-bottom: 2px solid #E0E0E0;
+    padding-top: 10%;
+    
+}
+
+#section3 .title_skill h6 {
+    display: block;
+    text-align: center;   
+    font-size: 18px;
+    font-weight: 500;
+  
+}
+
+
+@media screen and (min-width: 601px) {
+ 
+    #section3 .tab_skill:first-child {
+        margin-left : 4.16%;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -387,11 +442,36 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* CONTACT */
 #section5 {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
 
 
 

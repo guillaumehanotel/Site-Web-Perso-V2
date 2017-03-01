@@ -193,10 +193,81 @@
     
     
         <!-- ======= COMPETENCES ========= -->
-    <div id="section3" class="section container">
+    <div id="section3" class="section ">
         <h2 id="titre3">COMPETENCES</h2>
         <div id="toplink3" class="toplink"></div>
-        <div class="divider"></div>
+        
+        
+        <div id="row_skill" class="row">
+            <div class="tab_skill col l3 m3 s8 offset-s2">
+                <div class="title_skill">
+                    <h6 class="">Ce que je maîtrise très bien :</h6>
+                </div>
+                
+                <div id="skill" class="row">
+
+                    <p class="col l6 s12">- Javkjdlgkjqdfa</p>
+                    <p class="col l6 s12">- Javkjdlgkjqdfa</p>
+                    <p class="col l6 s12">- Javkjdlgkjqdfa</p>
+                    <p class="col l6 s12">- Javkjdlgkjqdfa</p>
+                    <p class="col l6 s12">- Javkjdlgkjqdfa</p>
+                    <p class="col l6 s12">- Javkjdlgkjqdfa</p>
+
+                    
+
+                    
+                </div>
+                
+                
+            </div>
+            
+            
+            <div class="tab_skill col l3 m3 s8 offset-l1 offset-m1 offset-s2">
+                <div class="title_skill">
+                    <h6 class="">Ce que je maîtrise correctement :</h6>
+                </div>
+                
+                
+                
+                
+                
+                
+            </div>
+            
+            
+            <div class="tab_skill col l3 m3 s8 offset-l1 offset-m1 offset-s2">
+                <div class="title_skill">
+                    <h6 class="">Ce que je maîtrise moyennement :</h6>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="container">
+            <div class="divider"></div>
+        </div>
+        
     </div>
     
     
