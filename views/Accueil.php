@@ -276,6 +276,64 @@
     <div id="section4" class="section container">
         <h2 id="titre4">FORMATIONS</h2>
         <div id="toplink4" class="toplink"></div>
+        
+        <div class="row">
+           
+           
+           
+            <div id="card" class="card">
+                <p id="annee">2014-2015</p>
+                
+                <h5>Licence Informatique <span>1ère année</span></h5>
+                
+                <p id="formation_coord">Université de La Rochelle - <span id="formation_ville">La Rochelle (17)</span></p>
+                
+                <p>Cette première année de Licence est composée du 1er semestre commun à toutes les formations, chaque étudiant doit choisir des regroupements de matières en fonction de ses préférences. Le second semestre commence lui, à aborder vraiment tous les concepts de l'informatique. J'ai notamment pu voir lors de cette première année : </p>
+                
+                <div class="card-action">
+                    <a href="https://formations.univ-larochelle.fr/licence-informatique" class="black-text" target="_blank">Lien de la formation</a>
+                </div>
+                
+                
+            </div>
+            
+            
+            
+            
+            
+            <div id="card" class="card">
+                <p id="annee">2014-2015</p>
+                
+                <h5>Licence Informatique <span>1ère année</span></h5>
+                
+                <p id="formation_coord">Université de La Rochelle - <span id="formation_ville">La Rochelle (17)</span></p>
+                
+                <p>Cette première année de Licence est composée du 1er semestre commun à toutes les formations, chaque étudiant doit choisir des regroupements de matières en fonction de ses préférences. Le second semestre commence lui, à aborder vraiment tous les concepts de l'informatique. J'ai notamment pu voir lors de cette première année : </p>
+                
+                <div class="card-action">
+                    <a href="https://formations.univ-larochelle.fr/licence-informatique" class="black-text" target="_blank">Lien de la formation</a>
+                </div>
+                
+                
+            </div>
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         <div class="divider"></div>
     </div>
     
