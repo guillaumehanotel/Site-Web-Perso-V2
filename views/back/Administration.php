@@ -1,4 +1,11 @@
-<main id="admin">
+<?php if(isset($reload)){
+        header("Refresh:0");
+    }
+?>
+   
+
+   
+   <main id="admin">
     <div class="">
         <div class="row">
             <div class="col s12 m9 l11">
@@ -69,7 +76,7 @@
                     
                     <div class="row">
 
-                        <form method="post" action="" class="col l12">
+                        <form  method="post" action="" class="col l12">
 
 
                            <div class="row">
@@ -166,7 +173,7 @@
                             
                             <div class="row">
                    
-                               <input class="btn col l4" type="submit" value="Envoyer"/>
+                               <input name="experience" class="btn col l4" type="submit" value="Envoyer"/>
                    
                    
                            </div>
@@ -276,7 +283,7 @@
                     
                     <div class="row">
 
-                        <form method="post" name="realisation" action="" class="col l12">
+                        <form method="post"  action="" class="col l12">
 
 
                            <div class="row">
@@ -308,7 +315,7 @@
                             
                             
                             <div class="row">
-                               <input class="btn col l2" type="submit" value="Envoyer"/>
+                               <input name="realisation" class="btn col l2" type="submit" value="Envoyer"/>
                            </div>
  
                        
@@ -377,7 +384,7 @@
                     
                     <div class="row">
 
-                        <form method="post" name="competences" action="" class="col l12">
+                        <form method="post" action="" class="col l12">
 
 
                            <div class="row">
@@ -392,7 +399,7 @@
                             
                             
                                 <div class="input-field col l3">
-                                    <select>
+                                    <select name="categorie">
                                       <option value="" disabled selected>Niveau de pratique</option>
                                       <option value="1">Je maîtrise très bien (1)</option>
                                       <option value="2">Je maîtrise correctement (2)</option>
@@ -406,7 +413,7 @@
                             
                             
                             <div class="row">
-                               <input class="btn col l2" type="submit" value="Envoyer"/>
+                               <input name="competence" class="btn col l2" type="submit" value="Envoyer"/>
                            </div>
  
                        
@@ -476,7 +483,7 @@
                     
                     <div class="row">
 
-                        <form method="post" name="formations" action="" class="col l12">
+                        <form method="post" action="" class="col l12">
 
 
                            <div class="row">
@@ -567,7 +574,7 @@
                             
                             
                             <div class="row">
-                               <input class="btn col l4" type="submit" value="Envoyer"/>
+                               <input name="formation" class="btn col l4" type="submit" value="Envoyer"/>
                            </div>
  
                        
