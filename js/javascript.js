@@ -4,9 +4,9 @@ $(document).ready(function() {
     $(".button-collapse").sideNav();
     
    
-  
+    $('.scrollspy').scrollSpy();
     
-    
+    $('select').material_select();
     
     
     $('#toplink0').on('scrollSpy:enter', function() {

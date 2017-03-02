@@ -338,12 +338,7 @@
                         <textarea id="textarea1" class="materialize-textarea"></textarea>
                         <label for="textarea1">Message</label>
                    
-                   
-                   
-                   
-                   
                    </div>
-                   
                </div>
                
                
