@@ -8,9 +8,6 @@
     position: fixed;
     z-index: 50;
     width: 100%;
-
-
- 
 }
 
 .nav-fixed {
@@ -26,7 +23,6 @@
 
 #menu1 li:hover {
     background-color: #212121;
-
 }
 
 
@@ -39,13 +35,10 @@ nav ul{
 */
 
 
-
-
-
-
-
-
-
+header .side-nav {
+    width: 150px;
+    text-align: center;
+}
 
 
 
@@ -278,6 +271,12 @@ main {
     height: 226px;
 }
 
+#section2 a {
+    z-index: 100;
+    text-decoration: none;
+    color: white;
+}
+
 
 
 #section2 .contour {
@@ -482,26 +481,23 @@ main {
 
 
 /* CONTACT */
-#section5 {
-
-}
 
 
-#section5 h4 {
+
+#accueil #section5 h4 {
     text-align: center;
     color: #e0e0e0;
 }
 
 
-#section5 form {
+#accueil #section5 form {
     background-color: #24292e;
     padding-top: 30px;
     margin-top: 30px;
-}
-
-#section5 form {
     color: white;
 }
+
+
 
 
 /* COULEUR INPUT */
@@ -510,30 +506,30 @@ main {
 
 
     /* label color */
-   .input-field label {
+.input-field label {
      color: #e0e0e0;
    }
    /* label focus color */
-   .input-field input[type=text]:focus + label {
+.input-field input[type=text]:focus + label {
      color: #e0e0e0;
    }
    /* label underline focus color */
-   .input-field input[type=text]:focus {
+.input-field input[type=text]:focus {
      border-bottom: 1px solid #e0e0e0;
      box-shadow: 0 1px 0 0 #e0e0e0;
    }
    /* valid color */
-   .input-field input[type=text].valid {
+.input-field input[type=text].valid {
      border-bottom: 1px solid #e0e0e0;
      box-shadow: 0 1px 0 0 #e0e0e0;
    }
    /* invalid color */
-   .input-field input[type=text].invalid {
+.input-field input[type=text].invalid {
      border-bottom: 1px solid #e0e0e0;
      box-shadow: 0 1px 0 0 #e0e0e0;
    }
    /* icon prefix focus color */
-   .input-field .prefix.active {
+.input-field .prefix.active {
      color: #e0e0e0;
    }
 
@@ -541,21 +537,21 @@ main {
 
 
    /* label focus color */
-   .input-field input[type=email]:focus + label {
+.input-field input[type=email]:focus + label {
      color: #e0e0e0;
    }
    /* label underline focus color */
-   .input-field input[type=email]:focus {
+.input-field input[type=email]:focus {
      border-bottom: 1px solid #e0e0e0;
      box-shadow: 0 1px 0 0 #e0e0e0;
    }
    /* valid color */
-   .input-field input[type=email].valid {
+.input-field input[type=email].valid {
      border-bottom: 1px solid #e0e0e0;
      box-shadow: 0 1px 0 0 #e0e0e0;
    }
    /* invalid color */
-   .input-field input[type=email].invalid {
+.input-field input[type=email].invalid {
      border-bottom: 1px solid #e0e0e0;
      box-shadow: 0 1px 0 0 #e0e0e0;
    }
@@ -563,21 +559,45 @@ main {
 
 
    /* label focus color */
-   .input-field textarea[class=materialize-textarea]:focus + label {
+.input-field input[type=password]:focus + label {
      color: #e0e0e0;
    }
    /* label underline focus color */
-   .input-field textarea[class=materialize-textarea]:focus {
+.input-field input[type=password]:focus {
      border-bottom: 1px solid #e0e0e0;
      box-shadow: 0 1px 0 0 #e0e0e0;
    }
    /* valid color */
-   .input-field textarea[class=materialize-textarea].valid {
+.input-field input[type=password].valid {
      border-bottom: 1px solid #e0e0e0;
      box-shadow: 0 1px 0 0 #e0e0e0;
    }
    /* invalid color */
-   .input-field textarea[class=materialize-textarea].invalid {
+.input-field input[type=password].invalid {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+
+
+
+
+
+   /* label focus color */
+.input-field textarea[class=materialize-textarea]:focus + label {
+     color: #e0e0e0;
+   }
+   /* label underline focus color */
+.input-field textarea[class=materialize-textarea]:focus {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+   /* valid color */
+.input-field textarea[class=materialize-textarea].valid {
+     border-bottom: 1px solid #e0e0e0;
+     box-shadow: 0 1px 0 0 #e0e0e0;
+   }
+   /* invalid color */
+.input-field textarea[class=materialize-textarea].invalid {
      border-bottom: 1px solid #e0e0e0;
      box-shadow: 0 1px 0 0 #e0e0e0;
    }
@@ -595,6 +615,48 @@ main {
     background-color: black;
     color: #e0e0e0;
 }
+
+
+
+
+
+
+#login form {
+    margin-top: 100px;
+    color: white;
+    background-color: #24292e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 2px 2px;
+    
+}
+
+
+
+#login h4 {
+    text-align: center;
+    color: #e0e0e0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -57,7 +57,7 @@
            
                 <ul class="tabs-transparent hide-on-med-and-down">
         
-                    <li><a id="linksection0" href="#toplink0">PRESENTATION</a></li>
+                    <li><a id="linksection0" href="<?= BASE_URL."Site-Web-Perso-V2/index/#toplink0" ?>">PRESENTATION</a></li>
                     <li><a id="linksection1" href="#toplink1">EXPERIENCES</a></li>              
                     <li><a id="linksection2" href="#toplink2">REALISATIONS</a></li> 
                     <li><a id="linksection3" href="#toplink3">COMPETENCES</a></li>           
@@ -73,8 +73,8 @@
         <!-- MENU MOBILE -->
         <ul class="side-nav" id="mobile-demo">
 
-            <li><a href="#toplink0">PRESENTATION</a></li>
-            <li><a href="#toplink1">EXPERIENCES</a></li>              
+            <li><a id="linksection0" href="<?= BASE_URL."Site-Web-Perso-V2/index/#toplink0" ?>">PRESENTATION</a></li>
+            <li><a href="#toplink1">EXPERIENCES</a></li>  
             <li><a href="#toplink2">REALISATIONS</a></li> 
             <li><a href="#toplink3">COMPETENCES</a></li>           
             <li><a href="#toplink4">FORMATIONS</a></li>         
@@ -84,7 +84,7 @@
 
        
 
-       
+    </header>     
        
         
        
