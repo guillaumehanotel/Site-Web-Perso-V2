@@ -487,6 +487,12 @@ main {
 }
 
 
+#section5 h4 {
+    text-align: center;
+    color: #e0e0e0;
+}
+
+
 #section5 form {
     background-color: #24292e;
     padding-top: 30px;
@@ -579,10 +585,16 @@ main {
 
 
 
+.btn {
+    background-color: #e0e0e0;
+    color: black;
+}
 
 
-
-
+.btn:hover {
+    background-color: black;
+    color: #e0e0e0;
+}
 
 
 

@@ -10,12 +10,10 @@
     <!-------- FICHIER CSS --------->
     
     <!-- Materialize CSS -->  
-    <link rel="stylesheet" href="<?= BASE_URL."blog_tmp/materialize/css/materialize.css" ?>"/>
+    <link rel="stylesheet" href="<?= BASE_URL."Site-Web-Perso-V2/css/materialize.css" ?>"/>
      
-    <!-- mon CSS -->
-  <!--  <link href="<?/*= BASE_URL."Site-Web-Perso-V2/css/style.css ";*/ ?>" rel="stylesheet" type="text/css" />-->
     
-    <!-- mon CSS 2, sans les images en fond -->
+    <!-- mon CSS  -->
     <link href="<?= BASE_URL."Site-Web-Perso-V2/css/style2.css "; ?>" rel="stylesheet" type="text/css" />
     
     <!-- ICONES -->
@@ -25,7 +23,7 @@
     <!-------- FICHIER JS --------->
     
     <!-- Jquery -->
-    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso-V2/bootstrap/js/jquery-3.1.1.min.js" ?>"></script>
+    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso-V2/js/jquery-3.1.1.min.js" ?>"></script>
     
     <!-- Jquery UI -->
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
@@ -34,7 +32,7 @@
     <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso-V2/js/scrollspy/scrollspy.js" ?>"></script>
     
     <!-- Materialize JS -->
-    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso-V2/materialize/js/materialize.js" ?>"></script>
+    <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso-V2/js/materialize.js" ?>"></script>
  
     <!-- mon JS -->
     <script type="application/javascript" src="<?= BASE_URL."Site-Web-Perso-V2/js/javascript.js" ?>"></script>

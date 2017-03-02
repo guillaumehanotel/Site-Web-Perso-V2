@@ -340,7 +340,10 @@
         
             <form method="post" action="" class="col l8 s12 offset-l2">
 
-
+            <h4>Envoyez moi un message</h4>
+               
+               
+               
                 <div class="row">
                     <div class="input-field col m6 s10 offset-m3 offset-s1">
                         <input id="nom" name="nom" type="text" class="validate"/>
@@ -384,6 +387,19 @@
                    </div>
                    
                </div>
+               
+               
+               
+               <div class="row">
+                   
+                   <input class="btn col m4 s8 offset-m4 offset-s2" type="submit" value="Envoyer"/>
+                   
+                   
+               </div>
+           
+           
+           
+           
            
            
            
