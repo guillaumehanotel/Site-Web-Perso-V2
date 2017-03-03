@@ -240,7 +240,7 @@
                                         <?= $value['experiences_ordre'];?>
                                     </td>
                                     <td>Modifier</td>
-                                    <td> <a href="<?= BASE_URL." Site-Web-Perso-V2/supprExpe "; ?>/?id=<?= $value['experiences_id'] ?>">X</a> </td>
+                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprExpe"; ?>/?id=<?= $value['experiences_id'] ?>">X</a> </td>
                                 </tr>
                                 <?php
                 }
@@ -355,7 +355,7 @@
                                         <?= $value['realisations_desc'];?>
                                     </td>
                                     <td>Modifier</td>
-                                    <td> <a href="<?= BASE_URL." Site-Web-Perso-V2/supprReal "; ?>/?id=<?= $value['realisations_id'] ?>">X</a> </td>
+                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprReal"; ?>/?id=<?= $value['realisations_id'] ?>">X</a> </td>
                                 </tr>
                                 <?php
                 }
@@ -448,7 +448,7 @@
                                         <?= $value['competences_categorie'];?>
                                     </td>
                                     <td>Modifier</td>
-                                    <td> <a href="<?= BASE_URL." Site-Web-Perso-V2/supprComp "; ?>/?id=<?= $value['competences_id'] ?>">X</a> </td>
+                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprComp"; ?>/?id=<?= $value['competences_id'] ?>">X</a> </td>
                                 </tr>
                                 <?php
                 }
@@ -658,7 +658,7 @@
                                         <?= $value['formation_lien'];?>
                                     </td>
                                     <td>Modifier</td>
-                                    <td> <a href="<?= BASE_URL." Site-Web-Perso-V2/supprForma "; ?>/?id=<?= $value['formation_id'] ?>">X</a> </td>
+                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprForma"; ?>/?id=<?= $value['formation_id'] ?>">X</a> </td>
                                 </tr>
                                 <?php
                 }

@@ -15,6 +15,7 @@
     
     <!-- mon CSS  -->
     <link href="<?= BASE_URL."Site-Web-Perso-V2/css/style2.css "; ?>" rel="stylesheet" type="text/css" />
+
     
     <!-- ICONES -->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
