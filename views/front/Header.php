@@ -9,8 +9,11 @@
     
     <!-------- FICHIER CSS --------->
     
+    <!-- Font Awesome CSS -->  
+    <link rel="stylesheet" href="<?= BASE_URL."Site-Web-Perso-V2/css/font-awesome.min.css" ?>"/>
+    
     <!-- Materialize CSS -->  
-    <link rel="stylesheet" href="<?= BASE_URL."Site-Web-Perso-V2/css/materialize.css" ?>"/>
+    <link rel="stylesheet" href="<?= BASE_URL."Site-Web-Perso-V2/css/materialize.min.css" ?>"/>
      
     
     <!-- mon CSS  -->

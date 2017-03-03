@@ -9,8 +9,11 @@
     
     <!-------- FICHIER CSS --------->
     
+    <!-- Font Awesome CSS -->  
+    <link rel="stylesheet" href="<?= BASE_URL."Site-Web-Perso-V2/css/font-awesome.min.css" ?>"/>
+    
     <!-- Materialize CSS -->  
-    <link rel="stylesheet" href="<?= BASE_URL."Site-Web-Perso-V2/css/materialize.css" ?>"/>
+    <link rel="stylesheet" href="<?= BASE_URL."Site-Web-Perso-V2/css/materialize.min.css" ?>"/>
      
     
     <!-- mon CSS  -->
@@ -64,8 +67,8 @@
                     <li><a id="linksection3" href="#toplink3">COMPETENCES</a></li>           
                     <li><a id="linksection4" href="#toplink4">FORMATIONS</a></li>         
                     <li><a id="linksection5" href="#toplink5">CONTACT</a></li>
-                    <li><a href="<?= BASE_URL."Site-Web-Perso-V2/deconnexion/" ?>">DECONNEXION</a></li>
-                    <li><a href="<?= BASE_URL."Site-Web-Perso-V2/admin/" ?>">ADMIN</a></li>
+                    <li><a class="redd" href="<?= BASE_URL."Site-Web-Perso-V2/deconnexion/" ?>">DECONNEXION</a></li>
+                    <li><a class="redd" href="<?= BASE_URL."Site-Web-Perso-V2/admin/" ?>">ADMIN</a></li>
 
                 </ul>      
        

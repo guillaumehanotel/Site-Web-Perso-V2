@@ -294,6 +294,27 @@
         <h2 id="titre5">CONTACT</h2>
         <div id="toplink5" class="toplink"></div>
         
+        
+        <div class="row">
+            
+            <div class="center-align col s4">
+            <a target="_blank" href="https://github.com/guillaumehanotel"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a></div>
+            
+            <div class="center-align col s4">
+                <a target="_blank" href="https://twitter.com/GHanosql"><i class="fa fa-twitter fa-5x" aria-hidden="true"></i></a>
+            </div>
+            <div class="center-align col s4">
+                <a target="_blank" href="https://www.linkedin.com/in/guillaume-hanotel-538b81106"><i class="fa fa-linkedin fa-5x" aria-hidden="true"></i></a>
+            </div>
+         
+            
+               
+                     
+        </div>
+    
+        
+        
+        
         <div class="row">
         
             <form method="post" action="" class="col l8 s12 offset-l2">
@@ -345,7 +366,7 @@
                
                <div class="row">
                    
-                   <input class="btn col m4 s8 offset-m4 offset-s2" type="submit" value="Envoyer"/>
+                   <input name="mail" class="btn col m4 s8 offset-m4 offset-s2" type="submit" value="Envoyer"/>
                    
                    
                </div>
@@ -365,23 +386,34 @@
         </div>
         
         
-        <div class="divider"></div>
+
     </div>
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
 </main>
+
+
+<footer class="page-footer">
+          
+    <div class="footer-copyright">
+        <div class="container">
+            © 2017 Guillaume HANOTEL
+        </div>
+            
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

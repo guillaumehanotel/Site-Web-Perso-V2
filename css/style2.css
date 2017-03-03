@@ -40,7 +40,9 @@ header .side-nav {
     text-align: center;
 }
 
-
+.redd {
+    color: orangered;
+}
 
 
 
@@ -49,7 +51,9 @@ header .side-nav {
 
 
 body {
-
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 
@@ -57,6 +61,7 @@ body {
 main {
     position: relative;
     top: 60px;
+    flex: 1 0 auto;
 }
 
 
@@ -641,6 +646,11 @@ main {
 
 
 
+i {
+    color: #24292e;
+}
+
+
 /*** ADMIN ***/
 
 
@@ -654,7 +664,14 @@ main {
 
 
 
+/** FOOTER **/
 
+footer.page-footer {
+    margin-top: 100px;
+    background-color: #24292e;
+    color: #e0e0e0;
+    text-align: center;
+}
 
 
 
@@ -700,6 +717,18 @@ main {
  
     
 }
+
+
+@media screen and (max-width: 350px) {
+    
+    #titre1 {
+        font-size: 20px;
+    }
+    
+    
+}
+
+
 
 
 @media screen and (max-width: 600px) {

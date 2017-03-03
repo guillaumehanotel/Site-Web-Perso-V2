@@ -697,3 +697,20 @@
         </div>
     </div>
 </main>
+
+
+
+
+<footer class="page-footer">
+          
+    <div class="footer-copyright">
+        <div class="container">
+            © 2017 Guillaume HANOTEL
+        </div>
+            
+    </div>
+</footer>
+
+
+</body>
+</html>
