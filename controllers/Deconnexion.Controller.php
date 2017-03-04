@@ -1,6 +1,14 @@
 <?php
 $_SESSION["erreur"] = "vous vous êtes bien déconnecté";
-session_unset();
-session_destroy();
+
+/*
+if(isset($_SESSION["connect"])){
+    session_unset();
+    session_destroy();
+}
+*/
+
+unset($_SESSION["connect"]);
+
 
 header("Location:".BASE_URL."Site-Web-Perso-V2/");

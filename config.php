@@ -12,7 +12,6 @@ define('BASE_URL', dirname(dirname($_SERVER['SCRIPT_NAME'])));
 
 
 
-
 $_dir["controllers"] = "controllers/";
 $_dir["views"] = "views/";
 $_dir["css"] = "css/";

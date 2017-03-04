@@ -63,6 +63,122 @@ $resultat_forma = $reponse_forma->fetchAll();
 
 
 
+if(isset($_POST['mail'])){
+    
+    
+    if(isset($_POST['nom']) && !empty($_POST['nom']) &&
+    isset($_POST['email']) && !empty($_POST['email']) &&
+    isset($_POST['sujet']) && !empty($_POST['sujet']) &&
+    isset($_POST['message']) && !empty($_POST['message'])){
+        
+        $nom = securify($_POST['nom']);
+        $mail = securify($_POST['email']);
+        $sujet = securify($_POST['sujet']);
+        $message_txt = securify($_POST['message']);
+        
+        
+        $message_html = "<html><head></head><body><p>".$message_txt."</p></body></html>";
+        
+        if(filter_var($mail, FILTER_VALIDATE_EMAIL)){
+            
+            $cible = "guillaumehanotel@orange.fr";
+            
+                    
+            
+            if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $cible)) // On filtre les serveurs qui rencontrent des bogues.
+            {
+                $passage_ligne = "\r\n";
+            }
+            else
+            {
+                $passage_ligne = "\n";
+            }
+            
+            
+            
+            //=====Création de la boundary
+            $boundary = "-----=".md5(rand());
+            //==========
+
+                
+            
+            //=====Création du header de l'e-mail.
+            $header = "From: \"$nom\"<".$mail.">".$passage_ligne;
+            $header.= "Reply-to: \"$nom\"<".$mail.">".$passage_ligne;
+            $header.= "MIME-Version: 1.0".$passage_ligne;
+            $header.= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
+            //==========
+
+            
+            
+            //=====Création du message.
+            $message = $passage_ligne."--".$boundary.$passage_ligne;
+            //=====Ajout du message au format texte.
+            $message.= "Content-Type: text/plain; charset=\"ISO-8859-1\"".$passage_ligne;
+            $message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
+            $message.= $passage_ligne.$message_txt.$passage_ligne;
+            //==========
+            $message.= $passage_ligne."--".$boundary.$passage_ligne;
+            //=====Ajout du message au format HTML
+            $message.= "Content-Type: text/html; charset=\"ISO-8859-1\"".$passage_ligne;
+            $message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
+            $message.= $passage_ligne.$message_html.$passage_ligne;
+            //==========
+            $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
+            $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
+            //==========
+
+            //=====Envoi de l'e-mail.
+            if(mail($cible,$sujet,$message,$header)){
+                echo "ca marche";
+            } else {
+                echo "marche pas";
+            }
+            //==========
+            
+            
+           
+            
+            
+            
+        } else {
+            $_SESSION["erreur"] = "Adresse Mail incorrect";
+        }     
+        
+    } else {
+        $_SESSION["erreur"] = "Champs invalides !";
+    }
+      
+    
+} else {
+    //Formulaire pas envoyé
+}
+
+
+
+if(!empty($_SESSION["erreur"])){
+	
+	alertMsg($_SESSION["erreur"]);
+	unset($_SESSION["erreur"]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

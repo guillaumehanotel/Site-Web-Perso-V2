@@ -32,6 +32,11 @@ function alertMsg($string){
 }
 
 
+/*
+    addslashes : Ajoute des antislashs dans une chaîne
+    htmlspecialchars : Convertit les caractères spéciaux en entités HTML    
+*/
+
 function securify($str){
     $invalid_characters = array("$", "%", "#", "<", ">", "|");
     $string = str_replace($invalid_characters, "", $str);

@@ -336,8 +336,8 @@
                 <div class="row">
                     <div class="input-field col m6 s10 offset-m3 offset-s1">
 
-                        <input id="mail" name="mail" type="email" class="validate"/>
-                        <label for="mail">Adresse Mail</label>
+                        <input id="email" name="email" type="email" class="validate"/>
+                        <label for="email">Adresse Mail</label>
 
                     </div>
                 </div>
@@ -356,7 +356,7 @@
                    
                    <div class="input-field col m8 s12 offset-m2 ">
                    
-                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <textarea name="message" id="textarea1" class="materialize-textarea"></textarea>
                         <label for="textarea1">Message</label>
                    
                    </div>
