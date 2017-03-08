@@ -718,6 +718,10 @@ footer.page-footer {
     }
  
     
+    .menu_admin {
+        width: 85%;
+    }
+    
 }
 
 
@@ -729,6 +733,19 @@ footer.page-footer {
     
     
 }
+
+
+@media screen and (min-width: 1050px) {
+    
+    
+    .menu_admin {
+        width: 90%;
+    }
+    
+    
+}
+
+
 
 
 

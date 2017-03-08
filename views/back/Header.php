@@ -54,7 +54,7 @@
        
 
         <nav id="menu1" class="navbar-fixed">
-            <div class="nav-content nav-wrapper container">
+            <div class="nav-content nav-wrapper container menu_admin">
          
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
            
@@ -85,6 +85,7 @@
             <li><a href="#toplink3">COMPETENCES</a></li>           
             <li><a href="#toplink4">FORMATIONS</a></li>         
             <li><a href="#toplink5">CONTACT</a></li>
+            <li><a class="redd" href="<?= BASE_URL."Site-Web-Perso-V2/deconnexion/" ?>">DECONNEXION</a></li>
             <li><a href="<?= BASE_URL."Site-Web-Perso-V2/admin/" ?>">ADMIN</a></li>
 
         </ul>
