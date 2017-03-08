@@ -32,7 +32,7 @@ if(isset($_POST['login'])) {
             }
           
         } else {
-		  $_SESSION["erreur"] = "Email incorrect !";
+		  $_SESSION["erreur"] = "Login incorrect !";
         }
           
     } else {
@@ -46,10 +46,11 @@ if(isset($_POST['login'])) {
 if(!empty($_SESSION["erreur"]))
 {
 	
-	alertMsg($_SESSION["erreur"]);
-	unset($_SESSION["erreur"]);
+	$token_error = true;
 	
 }
+
+
 
 
 require $_dir["views"]."back/Connexion.php";

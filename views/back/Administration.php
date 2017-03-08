@@ -11,7 +11,19 @@
             <div class="col s12 m9 l11">
                
                
-               
+        <!-- Token Error  -->
+        <?php
+            if(isset($token_error) && $token_error == true){
+        ?>
+        
+        <div hidden="hidden" id="token_error" class="token"><?= $_SESSION["erreur"] ?></div>
+        
+        <?php
+            }
+            $token_error = false;
+            unset($_SESSION["erreur"]);
+        
+        ?>
     
                
                

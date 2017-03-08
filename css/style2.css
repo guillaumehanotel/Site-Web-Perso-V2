@@ -43,10 +43,12 @@ header .side-nav {
 .redd {
     color: orangered;
 }
+/*
 
-
-
-
+.token {
+    display: none;
+}
+*/
 /** BODY **/
 
 
@@ -646,7 +648,7 @@ main {
 
 
 
-i {
+i.fa {
     color: #24292e;
 }
 

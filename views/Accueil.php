@@ -295,6 +295,22 @@
         <div id="toplink5" class="toplink"></div>
         
         
+        <!-- Token Error  -->
+        <?php
+            if(isset($token_error) && $token_error == true){
+        ?>
+        
+        <div hidden="hidden" id="token_error" class="token"><?= $_SESSION["erreur"] ?></div>
+        
+        <?php
+            }
+            $token_error = false;
+            unset($_SESSION["erreur"]);
+        
+        ?>
+        
+        
+        
         <div class="row">
             
             <div class="center-align col s4">
@@ -336,7 +352,7 @@
                 <div class="row">
                     <div class="input-field col m6 s10 offset-m3 offset-s1">
 
-                        <input id="email" name="email" type="email" class="validate"/>
+                        <input id="email" name="email" class="validate"/>
                         <label for="email">Adresse Mail</label>
 
                     </div>
@@ -366,7 +382,7 @@
                
                <div class="row">
                    
-                   <input name="mail" class="btn col m4 s8 offset-m4 offset-s2" type="submit" value="Envoyer"/>
+                   <input id="submit_mail" name="mail" class="btn col m4 s8 offset-m4 offset-s2" type="submit" value="Envoyer"/>
                    
                    
                </div>

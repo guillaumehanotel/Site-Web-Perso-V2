@@ -12,6 +12,21 @@
         <div class="row">
           
 
+        <!-- Token Error  -->
+        <?php
+            if(isset($token_error) && $token_error == true){
+        ?>
+        
+        <div hidden="hidden" id="token_error" class="token"><?= $_SESSION["erreur"] ?></div>
+        
+        <?php
+            }
+            $token_error = false;
+            unset($_SESSION["erreur"]);
+        
+        ?>
+           
+           
             
             <form method="post" name="login" action="" class="col l6 s12 offset-l3">
 

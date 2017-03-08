@@ -65,6 +65,7 @@ $resultat_forma = $reponse_forma->fetchAll();
 
 if(isset($_POST['mail'])){
     
+    //$token_error = true;
     
     if(isset($_POST['nom']) && !empty($_POST['nom']) &&
     isset($_POST['email']) && !empty($_POST['email']) &&
@@ -79,6 +80,7 @@ if(isset($_POST['mail'])){
         
         $message_html = "<html><head></head><body><p>".$message_txt."</p></body></html>";
         
+        // on vérifie que l'email soumis est syntaxiquement correct
         if(filter_var($mail, FILTER_VALIDATE_EMAIL)){
             
             $cible = "guillaumehanotel@orange.fr";
@@ -158,8 +160,8 @@ if(isset($_POST['mail'])){
 
 if(!empty($_SESSION["erreur"])){
 	
-	alertMsg($_SESSION["erreur"]);
-	unset($_SESSION["erreur"]);
+	$token_error = true;
+	
 }
 
 
