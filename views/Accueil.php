@@ -352,7 +352,7 @@
                 <div class="row">
                     <div class="input-field col m6 s10 offset-m3 offset-s1">
 
-                        <input id="email" name="email" class="validate"/>
+                        <input type="email" id="email" name="email" class="validate"/>
                         <label for="email">Adresse Mail</label>
 
                     </div>

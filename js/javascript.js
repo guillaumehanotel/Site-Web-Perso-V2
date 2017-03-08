@@ -11,7 +11,7 @@ $(document).ready(function() {
     $('select').material_select();
     
     
-    
+    /* Code pour mettre en blanc l'élément du menu sur lequel on passe*/
     $('#toplink0').on('scrollSpy:enter', function() {
         $('#linksection0').css({"color":"white"});
         disableCSS(0);
@@ -91,9 +91,16 @@ $(document).ready(function() {
         
     
 
-    /* Lors 
-     *
-     *
+    /* Lors du traitement php, si une variable de session erreur est créé, 
+     * alors on déclare un booléen token_error à true
+     * le html est chargé, si token_error existe et est vrai, 
+     * on ajoute une div dans laquelle on affiche la session error
+     * puis le traitement ci dessous va récupérer l'erreur si elle existe,
+     * l'enregistrer dans une variable qui se conservera meme avec
+     * des rafraichissements de pages
+     * puis on revient en arrière sur la page pour revenir au formulaire déjà rempli
+     * et là on récupère le msg d'erreur enregistré auparant pour l'afficher 
+     * dans un toast Materialize
      */
     
     
@@ -101,7 +108,7 @@ $(document).ready(function() {
     if ($("#token_error").length > 0 ){
         // on récupère le contenu de l'erreur
         var contenu = $("#token_error").html();
-        console.log(contenu);
+        //console.log(contenu);
         localStorage.setItem("error",contenu);
 
         window.history.back(); //reload
@@ -114,14 +121,7 @@ $(document).ready(function() {
         
     }
 
-        
-        
 
-
-
-
-    
-    
     
     
     
