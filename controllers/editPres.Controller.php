@@ -37,12 +37,12 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
                
             
 
-            header('Location: '.BASE_URL.'Site-Web-Perso-V2/admin/');
+            header('Location: '.BASE_URL.'/admin/');
 
         }   else {
             
             $_SESSION["erreur"] = "l'id fourni n'est pas un utilisateur";
-            header('Location: ' . BASE_URL . 'Site-Web-Perso-V2/admin/');
+            header('Location: ' . BASE_URL . '/admin/');
             
         }
     }
@@ -61,7 +61,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
         require $_dir["views"] . "back/editPres.php";
     } else {
         $_SESSION["erreur"] = "l'id fourni n'est pas un utilisateur";
-        header('Location: ' . BASE_URL . 'Site-Web-Perso-V2/admin/');
+        header('Location: ' . BASE_URL . '/admin/');
     }
 
 

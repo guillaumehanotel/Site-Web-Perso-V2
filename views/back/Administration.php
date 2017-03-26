@@ -55,7 +55,7 @@
                                     <td>
                                         <?= $value['presentation_apropos'];?>
                                     </td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editPres"; ?>/?id=<?= $value['presentation_id'] ?>">Modifier</a></td>
+                                    <td> <a href="<?= BASE_URL."/editPres"; ?>/?id=<?= $value['presentation_id'] ?>">Modifier</a></td>
                                 </tr>
                                 <?php
                 }
@@ -251,8 +251,8 @@
                                     <td>
                                         <?= $value['experience_ordre'];?>
                                     </td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editExpe"; ?>/?id=<?= $value['experience_id'] ?>">Modifier</a></td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprExpe"; ?>/?id=<?= $value['experience_id'] ?>">X</a> </td>
+                                    <td> <a href="<?= BASE_URL."/editExpe"; ?>/?id=<?= $value['experience_id'] ?>">Modifier</a></td>
+                                    <td> <a href="<?= BASE_URL."/supprExpe"; ?>/?id=<?= $value['experience_id'] ?>">X</a> </td>
                                 </tr>
                                 <?php
                 }
@@ -366,8 +366,8 @@
                                     <td>
                                         <?= $value['realisation_desc'];?>
                                     </td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editReal"; ?>/?id=<?= $value['realisation_id'] ?>">Modifier</a></td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprReal"; ?>/?id=<?= $value['realisation_id'] ?>">X</a> </td>
+                                    <td> <a href="<?= BASE_URL."/editReal"; ?>/?id=<?= $value['realisation_id'] ?>">Modifier</a></td>
+                                    <td> <a href="<?= BASE_URL."/supprReal"; ?>/?id=<?= $value['realisation_id'] ?>">X</a> </td>
                                 </tr>
                                 <?php
                 }
@@ -459,8 +459,8 @@
                                     <td>
                                         <?= $value['competence_categorie'];?>
                                     </td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editComp"; ?>/?id=<?= $value['competence_id'] ?>">Modifier</a></td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprComp"; ?>/?id=<?= $value['competence_id'] ?>">X</a> </td>
+                                    <td> <a href="<?= BASE_URL."/editComp"; ?>/?id=<?= $value['competence_id'] ?>">Modifier</a></td>
+                                    <td> <a href="<?= BASE_URL."/supprComp"; ?>/?id=<?= $value['competence_id'] ?>">X</a> </td>
                                 </tr>
                                 <?php
                 }
@@ -669,8 +669,8 @@
                                     <td>
                                         <?= $value['formation_lien'];?>
                                     </td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editForma"; ?>/?id=<?= $value['formation_id'] ?>">Modifier</a></td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprForma"; ?>/?id=<?= $value['formation_id'] ?>">X</a> </td>
+                                    <td> <a href="<?= BASE_URL."/editForma"; ?>/?id=<?= $value['formation_id'] ?>">Modifier</a></td>
+                                    <td> <a href="<?= BASE_URL."/supprForma"; ?>/?id=<?= $value['formation_id'] ?>">X</a> </td>
                                 </tr>
                                 <?php
                 }

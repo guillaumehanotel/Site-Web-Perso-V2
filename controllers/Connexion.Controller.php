@@ -23,7 +23,7 @@ if(isset($_POST['login'])) {
                 
                 $_SESSION["connect"] = true;
                 $_SESSION["user"] = $user["login"];
-                header('Location:' . BASE_URL . 'Site-Web-Perso-V2/admin/');
+                header('Location:' . BASE_URL . '/admin/');
                 
                 
                 

@@ -5,7 +5,7 @@ if(!isset($_SESSION["connect"])){
     $_SESSION["erreur"]="Vous devez vous connecter pour accéder a cette page ";
     
     //$token_error = true;
-    header('Location: '.BASE_URL.'Site-Web-Perso-V2/login/');
+    header('Location: '.BASE_URL.'/login/');
 }
 
 

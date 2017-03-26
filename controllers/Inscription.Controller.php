@@ -16,7 +16,7 @@ if(!empty($_POST)){
             $bdd->query($requete);
 
         echo $requete;
-            //header('Location: ' . BASE_URL . 'Site-Web-Perso-V2/login/');
+            //header('Location: ' . BASE_URL . '/login/');
 
 
 

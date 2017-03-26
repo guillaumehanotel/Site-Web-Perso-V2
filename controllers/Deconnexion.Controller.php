@@ -11,4 +11,4 @@ if(isset($_SESSION["connect"])){
 unset($_SESSION["connect"]);
 
 
-header("Location:".BASE_URL."Site-Web-Perso-V2/");
+header("Location:".BASE_URL."/");

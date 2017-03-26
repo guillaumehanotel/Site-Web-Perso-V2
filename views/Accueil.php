@@ -8,7 +8,7 @@
             <div id="toplink0" class="toplink"></div>
 
             <div class="row"> 
-            <img class="circle responsive-img col l2 offset-l5 m4 offset-m4 col s6 offset-s3   " src="<?= BASE_URL."Site-Web-Perso-V2/img/1.jpg " ?>" alt="Picture of me" width="300" height="300"> 
+            <img class="circle responsive-img col l2 offset-l5 m4 offset-m4 col s6 offset-s3   " src="<?= BASE_URL."/img/1.jpg " ?>" alt="Picture of me" width="300" height="300">
             </div>
             
             
@@ -132,7 +132,7 @@
             ?>
                 <div class="real col s12 m6 l4">
                     <div class="contour"> 
-                       <img src="<?= BASE_URL."Site-Web-Perso-V2/img/github-logo.png " ?>" alt="" class="responsive-img">
+                       <img src="<?= BASE_URL."/img/github-logo.png " ?>" alt="" class="responsive-img">
                         <a target="_blank" href="<?= $value['realisation_link'] ?>">
                             <div class="backimg">
                                 <div class="back"></div>
