@@ -67,8 +67,8 @@
                     <li><a id="linksection3" href="#lien3">COMPETENCES</a></li>           
                     <li><a id="linksection4" href="#lien4">FORMATIONS</a></li>         
                     <li><a id="linksection5" href="#lien5">CONTACT</a></li>
-                    <li><a class="redd" href="<?= BASE_URL."/deconnexion/" ?>">DECONNEXION</a></li>
-                    <li><a class="redd" href="<?= BASE_URL."/admin/" ?>">ADMIN</a></li>
+                    <li><a class="orangee" href="<?= BASE_URL."/deconnexion/" ?>">DECONNEXION</a></li>
+                    <li><a class="orangee" href="<?= BASE_URL."/admin/" ?>">ADMIN</a></li>
 
                 </ul>      
        
@@ -85,7 +85,7 @@
             <li><a href="#lien3">COMPETENCES</a></li>           
             <li><a href="#lien4">FORMATIONS</a></li>         
             <li><a href="#lien5">CONTACT</a></li>
-            <li><a class="orangee" href="<?= BASE_URL."/deconnexion/" ?>">DECONNEXION</a></li>
+            <li><a href="<?= BASE_URL."/deconnexion/" ?>">DECONNEXION</a></li>
             <li><a href="<?= BASE_URL."/admin/" ?>">ADMIN</a></li>
 
         </ul>

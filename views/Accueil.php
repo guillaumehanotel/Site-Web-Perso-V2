@@ -132,7 +132,7 @@
             ?>
                 <div class="real col s12 m6 l4">
                     <div class="contour"> 
-                       <img src="<?= BASE_URL."/img/github-logo.png " ?>" alt="" class="responsive-img">
+                       <img height="200" width="200" src="<?= $value['realisation_picture_path'] ?>" alt="" class="responsive-img">
                         <a target="_blank" href="<?= $value['realisation_link'] ?>">
                             <div class="backimg">
                                 <div class="back"></div>

@@ -124,20 +124,76 @@ if(isset($_POST['realisation'])){
     
     if(isset($_POST['titre']) && !empty($_POST['titre']) &&
        isset($_POST['description']) && !empty($_POST['description']) &&
-       isset($_POST['lien']) && !empty($_POST['lien'])){   
+       isset($_POST['lien']) && !empty($_POST['lien']) &&
+       isset($_FILES['avatar'])){
         
         $reload = true;
+
+        //chemin du dossier pour le move
+        $path = "../".PROJECT_NAME."/images/" ;
+
+        // chemin du dossier pour la BDD
+        $dossier = BASE_URL."/images/" ;
+
+        // nom du fichier
+        $fichier = basename($_FILES['avatar']['name']);
+
+        //chemin du fichier pour la BDD
+        $picture_path = $dossier.$fichier;
+
+
+
+        $taille_maxi = 500000;
+        $taille = filesize($_FILES['avatar']['tmp_name']);
+        $extensions = array('.png', '.gif', '.jpg', '.jpeg');
+        $extension = strrchr($_FILES['avatar']['name'], '.');
+
+        if(!in_array($extension, $extensions)) //Si l'extension n'est pas dans le tableau
+        {
+            $_SESSION["erreur"] = 'Vous devez uploader un fichier de type png, gif, jpg, jpeg, txt ou doc...';
+        }
+        if($taille>$taille_maxi)
+        {
+            $_SESSION["erreur"] = 'Le fichier est trop gros...';
+        }
+
+
+        if(!isset($_SESSION["erreur"])) //S'il n'y a pas d'erreur, on upload
+        {
+
+            //On formate le nom du fichier ici...
+            $fichier = strtr($fichier,
+                'ÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÝàáâãäåçèéêëìíîïðòóôõöùúûüýÿ',
+                'AAAAAACEEEEIIIIOOOOOUUUUYaaaaaaceeeeiiiioooooouuuuyy');
+
+            $fichier = preg_replace('/([^.a-z0-9]+)/i', '-', $fichier);
+
+            if(move_uploaded_file($_FILES['avatar']['tmp_name'], $path . $fichier)) //Si la fonction renvoie TRUE, c'est que ça a fonctionné...
+            {
+                echo 'Upload effectué avec succès !';
+            }
+            else //Sinon (la fonction renvoie FALSE).
+            {
+                echo 'Echec de l\'upload !';
+            }
+        }
+
+
+
+
         
         $requete = $bdd -> prepare("INSERT INTO realisation(
                                                 realisation_link,
                                                 realisation_titre,
-                                                realisation_desc
+                                                realisation_desc,
+                                                realisation_picture_path
                                             )
                                             VALUES
                                             (
                                                 :lien,
                                                 :titre,
-                                                :description
+                                                :description,
+                                                :picture
                                             )"
                                   );
         
@@ -145,7 +201,8 @@ if(isset($_POST['realisation'])){
         $param = array(
             'lien' => securify($_POST['lien']),
             'titre' => securify($_POST['titre']),
-            'description' => securify($_POST['description'])
+            'description' => securify($_POST['description']),
+            'picture' => $picture_path
         );
         
         

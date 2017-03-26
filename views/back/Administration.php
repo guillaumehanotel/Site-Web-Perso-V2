@@ -295,7 +295,7 @@
                     
                     <div class="row">
 
-                        <form method="post"  action="" class="col l12">
+                        <form method="post"  action="" class="col l12" enctype="multipart/form-data">
 
 
                            <div class="row">
@@ -324,6 +324,26 @@
                                 </div>
                             
                             </div>
+
+                            <div class="row">
+                                <div class="file-field input-field col m5">
+
+                                    <!-- On limite le fichier à 100Ko -->
+                                    <input type="hidden" name="MAX_FILE_SIZE" value="500000">
+
+                                    <div class="btn">
+                                        <span>Image (200x200)</span>
+                                        <input type="file" name="avatar">
+                                    </div>
+
+                                    <div class="file-path-wrapper">
+                                        <input class="file-path validate" type="text">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
                             
                             
                             <div class="row">
@@ -345,6 +365,7 @@
                                 <th data-field="link">Lien</th>
                                 <th data-field="titre">Titre</th>
                                 <th data-field="description">Description</th>
+                                <th data-field="link">Image</th>
                                 <th data-field="modif">Modifier</th>
                                 <th data-field="delete">Delete</th>
                             </tr>
@@ -365,6 +386,9 @@
                                     </td>
                                     <td>
                                         <?= $value['realisation_desc'];?>
+                                    </td>
+                                    <td>
+                                        <img width="50" height="50" src="<?= $value['realisation_picture_path'];?>" alt="">
                                     </td>
                                     <td> <a href="<?= BASE_URL."/editReal"; ?>/?id=<?= $value['realisation_id'] ?>">Modifier</a></td>
                                     <td> <a href="<?= BASE_URL."/supprReal"; ?>/?id=<?= $value['realisation_id'] ?>">X</a> </td>
