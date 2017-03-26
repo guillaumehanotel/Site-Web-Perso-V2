@@ -8,12 +8,12 @@
 
                         <form method="post" action="" class="col l12">
 
-                           <input type="hidden" value="<?= $comp['competences_id'] ?>">
+                           <input type="hidden" value="<?= $comp['competence_id'] ?>">
 
                            <div class="row">
                             
                                 <div class="input-field col l2">
-                                    <input id="intitule" name="intitule" type="text" class="validate" value="<?= $comp['competences_intitule'] ?>"/>
+                                    <input id="intitule" name="intitule" type="text" class="validate" value="<?= $comp['competence_intitule'] ?>"/>
                                     <label for="intitule">Intitulé</label>
 
                                 </div>

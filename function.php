@@ -2,7 +2,7 @@
 
 
 function DansBase($login,$bdd) {
-    $sql = "SELECT login FROM users WHERE login='$login'";
+    $sql = "SELECT login FROM user WHERE login='$login'";
     $resultat = $bdd->query($sql);
     $info = $resultat->fetchAll(PDO::FETCH_ASSOC);
     if($info!=null) {
@@ -13,7 +13,7 @@ function DansBase($login,$bdd) {
 }
 
 function GetUser($login,$bdd) {
-    $sql = "SELECT * FROM users WHERE login='$login'";
+    $sql = "SELECT * FROM user WHERE login='$login'";
     $resultat = $bdd->query($sql);
     $user = $resultat->fetch();
     if(!empty($user)) {

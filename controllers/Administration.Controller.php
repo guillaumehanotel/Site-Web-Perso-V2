@@ -18,20 +18,20 @@ $resultat_pres = $reponse_pres->fetchAll();
 
 /*** EXPERIENCES ***/
 
-$requete_expe = "SELECT * from experiences";
+$requete_expe = "SELECT * from experience";
 $reponse_expe = $bdd->query($requete_expe);
 $resultat_expe = $reponse_expe->fetchAll();
 
 /*** REALISATIONS ***/
 
-$requete_real = "SELECT * from realisations";
+$requete_real = "SELECT * from realisation";
 $reponse_real = $bdd->query($requete_real);
 $resultat_real = $reponse_real->fetchAll();
 
 /*** COMPETENCES ***/
 
 
-$requete_comp = "SELECT * from competences";
+$requete_comp = "SELECT * from competence";
 $reponse_comp = $bdd->query($requete_comp);
 $resultat_comp = $reponse_comp->fetchAll();
 
@@ -39,7 +39,7 @@ $resultat_comp = $reponse_comp->fetchAll();
 
 /*** FORMATIONS ***/
 
-$requete_forma = "SELECT * from formations";
+$requete_forma = "SELECT * from formation";
 $reponse_forma = $bdd->query($requete_forma);
 $resultat_forma = $reponse_forma->fetchAll();
 
@@ -60,16 +60,16 @@ if(isset($_POST['experience'])){
         
         $reload = true;
         
-        $requete = $bdd -> prepare("INSERT INTO experiences(
-                                                experiences_date,
-                                                experiences_duree,
-                                                experiences_ville,
-                                                experiences_codepostal,
-                                                experiences_intitule,
-                                                experiences_entreprise,
-                                                experiences_type,
-                                                experiences_description,
-                                                experiences_ordre
+        $requete = $bdd -> prepare("INSERT INTO experience(
+                                                experience_date,
+                                                experience_duree,
+                                                experience_ville,
+                                                experience_codepostal,
+                                                experience_intitule,
+                                                experience_entreprise,
+                                                experience_type,
+                                                experience_description,
+                                                experience_ordre
                                             )
                                             VALUES
                                             (
@@ -128,10 +128,10 @@ if(isset($_POST['realisation'])){
         
         $reload = true;
         
-        $requete = $bdd -> prepare("INSERT INTO realisations(
-                                                realisations_link,
-                                                realisations_titre,
-                                                realisations_desc
+        $requete = $bdd -> prepare("INSERT INTO realisation(
+                                                realisation_link,
+                                                realisation_titre,
+                                                realisation_desc
                                             )
                                             VALUES
                                             (
@@ -175,9 +175,9 @@ if(isset($_POST['competence'])){
         
         $reload = true;
         
-        $requete = $bdd -> prepare("INSERT INTO competences(
-                                                competences_intitule,
-                                                competences_categorie
+        $requete = $bdd -> prepare("INSERT INTO competence(
+                                                competence_intitule,
+                                                competence_categorie
                                             )
                                             VALUES
                                             (
@@ -223,14 +223,14 @@ if(isset($_POST['formation'])){
         
         $reload = true;
         
-        $requete = $bdd -> prepare("INSERT INTO formations(
-                                                annee_debut,
-                                                annee_fin,
-                                                annee_courante,
-                                                formation_intitulé,
+        $requete = $bdd -> prepare("INSERT INTO formation(
+                                                formation_annee_debut,
+                                                formation_annee_fin,
+                                                formation_annee_courante,
+                                                formation_intitule,
                                                 formation_ecole,
                                                 formation_ville,
-                                                ville_code_postal,
+                                                formation_ville_code_postal,
                                                 formation_description,
                                                 formation_lien
                                             )

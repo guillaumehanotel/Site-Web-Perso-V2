@@ -47,15 +47,15 @@
                 foreach ($resultat_pres as $value){?>
                                 <tr>
                                     <td>
-                                        <?= $value['id_presentation'];?>
+                                        <?= $value['presentation_id'];?>
                                     </td>
                                     <td>
-                                        <?= $value['description'];?>
+                                        <?= $value['presentation_description'];?>
                                     </td>
                                     <td>
-                                        <?= $value['apropos'];?>
+                                        <?= $value['presentation_apropos'];?>
                                     </td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editPres"; ?>/?id=<?= $value['id_presentation'] ?>">Modifier</a></td>
+                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editPres"; ?>/?id=<?= $value['presentation_id'] ?>">Modifier</a></td>
                                 </tr>
                                 <?php
                 }
@@ -222,37 +222,37 @@
                 foreach ($resultat_expe as $value){?>
                                 <tr>
                                     <td>
-                                        <?= $value['experiences_id'];?>
+                                        <?= $value['experience_id'];?>
                                     </td>
                                     <td>
-                                        <?= $value['experiences_date'];?>
+                                        <?= $value['experience_date'];?>
                                     </td>
                                     <td>
-                                        <?= $value['experiences_duree'];?>
+                                        <?= $value['experience_duree'];?>
                                     </td>
                                     <td>
-                                        <?= $value['experiences_ville'];?>
+                                        <?= $value['experience_ville'];?>
                                     </td>
                                     <td>
-                                        <?= $value['experiences_codepostal'];?>
+                                        <?= $value['experience_codepostal'];?>
                                     </td>
                                     <td>
-                                        <?= $value['experiences_intitule'];?>
+                                        <?= $value['experience_intitule'];?>
                                     </td>
                                     <td>
-                                        <?= $value['experiences_entreprise'];?>
+                                        <?= $value['experience_entreprise'];?>
                                     </td>
                                     <td>
-                                        <?= $value['experiences_type'];?>
+                                        <?= $value['experience_type'];?>
                                     </td>
                                     <td>
-                                        <?= $value['experiences_description'];?>
+                                        <?= $value['experience_description'];?>
                                     </td>
                                     <td>
-                                        <?= $value['experiences_ordre'];?>
+                                        <?= $value['experience_ordre'];?>
                                     </td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editExpe"; ?>/?id=<?= $value['experiences_id'] ?>">Modifier</a></td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprExpe"; ?>/?id=<?= $value['experiences_id'] ?>">X</a> </td>
+                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editExpe"; ?>/?id=<?= $value['experience_id'] ?>">Modifier</a></td>
+                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprExpe"; ?>/?id=<?= $value['experience_id'] ?>">X</a> </td>
                                 </tr>
                                 <?php
                 }
@@ -355,19 +355,19 @@
                 foreach ($resultat_real as $value){?>
                                 <tr>
                                     <td>
-                                        <?= $value['realisations_id'];?>
+                                        <?= $value['realisation_id'];?>
                                     </td>
                                     <td>
-                                        <?= $value['realisations_link'];?>
+                                        <?= $value['realisation_link'];?>
                                     </td>
                                     <td>
-                                        <?= $value['realisations_titre'];?>
+                                        <?= $value['realisation_titre'];?>
                                     </td>
                                     <td>
-                                        <?= $value['realisations_desc'];?>
+                                        <?= $value['realisation_desc'];?>
                                     </td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editReal"; ?>/?id=<?= $value['realisations_id'] ?>">Modifier</a></td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprReal"; ?>/?id=<?= $value['realisations_id'] ?>">X</a> </td>
+                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editReal"; ?>/?id=<?= $value['realisation_id'] ?>">Modifier</a></td>
+                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprReal"; ?>/?id=<?= $value['realisation_id'] ?>">X</a> </td>
                                 </tr>
                                 <?php
                 }
@@ -451,16 +451,16 @@
                 foreach ($resultat_comp as $value){?>
                                 <tr>
                                     <td>
-                                        <?= $value['competences_id'];?>
+                                        <?= $value['competence_id'];?>
                                     </td>
                                     <td>
-                                        <?= $value['competences_intitule'];?>
+                                        <?= $value['competence_intitule'];?>
                                     </td>
                                     <td>
-                                        <?= $value['competences_categorie'];?>
+                                        <?= $value['competence_categorie'];?>
                                     </td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editComp"; ?>/?id=<?= $value['competences_id'] ?>">Modifier</a></td>
-                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprComp"; ?>/?id=<?= $value['competences_id'] ?>">X</a> </td>
+                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/editComp"; ?>/?id=<?= $value['competence_id'] ?>">Modifier</a></td>
+                                    <td> <a href="<?= BASE_URL."Site-Web-Perso-V2/supprComp"; ?>/?id=<?= $value['competence_id'] ?>">X</a> </td>
                                 </tr>
                                 <?php
                 }
@@ -643,16 +643,16 @@
                                         <?= $value['formation_id'];?>
                                     </td>
                                     <td>
-                                        <?= $value['annee_debut'];?>
+                                        <?= $value['formation_annee_debut'];?>
                                     </td>
                                     <td>
-                                        <?= $value['annee_fin'];?>
+                                        <?= $value['formation_annee_fin'];?>
                                     </td>
                                     <td>
-                                        <?= $value['annee_courante'];?>
+                                        <?= $value['formation_annee_courante'];?>
                                     </td>
                                     <td>
-                                        <?= $value['formation_intitulé'];?>
+                                        <?= $value['formation_intitule'];?>
                                     </td>
                                     <td>
                                         <?= $value['formation_ecole'];?>
@@ -661,7 +661,7 @@
                                         <?= $value['formation_ville'];?>
                                     </td>
                                     <td>
-                                        <?= $value['ville_code_postal'];?>
+                                        <?= $value['formation_ville_code_postal'];?>
                                     </td>
                                     <td>
                                         <?= $value['formation_description'];?>

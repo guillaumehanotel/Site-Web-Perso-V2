@@ -11,7 +11,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
         
 
 
-        $pres=$bdd->query("select * from presentation where id_presentation='$id'");
+        $pres=$bdd->query("select * from presentation where presentation_id='$id'");
         $pres = $pres->fetch();
 
         
@@ -20,9 +20,9 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
 
             
             $requete = $bdd->prepare("UPDATE presentation SET 
-            description        = :description,
-            apropos       = :apropos
-            WHERE id_presentation = :id");
+            presentation_description        = :description,
+            presentation_apropos       = :apropos
+            WHERE presentation_id = :id");
             
             $param = array(
                 'id'          => $id,
@@ -53,7 +53,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
 
     $id = securify((int)$_GET["id"]);
     
-    $reponse = $bdd->query("SELECT * FROM presentation WHERE id_presentation='$id'");
+    $reponse = $bdd->query("SELECT * FROM presentation WHERE presentation_id='$id'");
     $pres = $reponse->fetch();
 
     // si l'experience existe

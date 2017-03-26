@@ -16,7 +16,7 @@
                                <input type="hidden" value="<?= $forma['formation_id'] ?>">
                             
                                 <div class="input-field col l2">
-                                    <input id="anneedebut" name="anneedebut" type="text" class="validate" value="<?= $forma['annee_debut'] ?>"/>
+                                    <input id="anneedebut" name="anneedebut" type="text" class="validate" value="<?= $forma['formation_annee_debut'] ?>"/>
                                     <label for="anneedebut">Année Début</label>
 
                                 </div>
@@ -25,7 +25,7 @@
                             
                             
                                 <div class="input-field col l2">
-                                    <input id="anneefin" name="anneefin" type="text" class="validate" value="<?= $forma['annee_fin'] ?>"/>
+                                    <input id="anneefin" name="anneefin" type="text" class="validate" value="<?= $forma['formation_annee_fin'] ?>"/>
                                     <label for="anneefin">Année Fin</label>
 
                                 </div>
@@ -34,7 +34,7 @@
                             
                             
                                 <div class="input-field col l2">
-                                    <input placeholder="1ère  / 2ème" id="anneecourante" name="anneecourante" type="text" class="validate" value="<?= $forma['annee_courante'] ?>"/>
+                                    <input placeholder="1ère  / 2ème" id="anneecourante" name="anneecourante" type="text" class="validate" value="<?= $forma['formation_annee_courante'] ?>"/>
                                     <label for="anneecourante">ième année</label>
 
                                 </div>              
@@ -49,7 +49,7 @@
                               
                                
                                 <div class="input-field col l3">
-                                    <input id="intitule" name="intitule" type="text" class="validate" value="<?= $forma['formation_intitulé'] ?>"/>
+                                    <input id="intitule" name="intitule" type="text" class="validate" value="<?= $forma['formation_intitule'] ?>"/>
                                     <label for="intitule">Intitulé</label>
                                 </div>
                             
@@ -69,7 +69,7 @@
                                 
                                 
                                 <div class="input-field col l2">
-                                    <input id="cp" name="cp" type="text" class="validate" value="<?= $forma['ville_code_postal'] ?>"/>
+                                    <input id="cp" name="cp" type="text" class="validate" value="<?= $forma['formation_ville_code_postal'] ?>"/>
                                     <label for="cp">Code Postal</label>
                                 </div>     
                             

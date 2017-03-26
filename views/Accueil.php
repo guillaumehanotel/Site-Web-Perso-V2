@@ -21,7 +21,7 @@
     
             ?>
                     <p class="center-align col m6 offset-m3">
-                        <?= $value['description'] ?>
+                        <?= $value['presentation_description'] ?>
                     </p>
             </div>
         </div>
@@ -34,7 +34,7 @@
                 <h3>A Propos de Moi...</h3>
                 <div class="row">
                     <p class="col s10 offset-s1">
-                        <?= $value['apropos'] ?>
+                        <?= $value['presentation_apropos'] ?>
                     </p>
                     <?php
                         }
@@ -77,23 +77,23 @@
                     <div id="content">
                         <div class="row valign-wrapper">
                             <p id="intitule" class="col l3 m3 s12">-
-                                <?= $value['experiences_type'] ?> -</p>
-                            <h4 id="titre" class="col l5 m6 s12"><?= $value['experiences_intitule'] ?></h4>
+                                <?= $value['experience_type'] ?> -</p>
+                            <h4 id="titre" class="col l5 m6 s12"><?= $value['experience_intitule'] ?></h4>
                             <p id="date" class="col l3 offset-l1 m3  s12">
-                                <?= $value['experiences_date'] ?>
+                                <?= $value['experience_date'] ?>
                                     <br>(
-                                    <?= $value['experiences_duree'] ?>)</p>
+                                    <?= $value['experience_duree'] ?>)</p>
                         </div>
                         <div class="row">
                             <p id="entreprise" class="col l2">
-                                <?= $value['experiences_entreprise'] ?>
+                                <?= $value['experience_entreprise'] ?>
                             </p>
                             <p id="ville" class="col l2">
-                                <?= $value['experiences_ville'] ?>(
-                                    <?= $value['experiences_codepostal'] ?>)</p>
+                                <?= $value['experience_ville'] ?>(
+                                    <?= $value['experience_codepostal'] ?>)</p>
                         </div>
                         <p>
-                            <?= $value['experiences_description'] ?>
+                            <?= $value['experience_description'] ?>
                         </p>
                     </div>
                     <div id="border-bottom">
@@ -133,13 +133,13 @@
                 <div class="real col s12 m6 l4">
                     <div class="contour"> 
                        <img src="<?= BASE_URL."Site-Web-Perso-V2/img/github-logo.png " ?>" alt="" class="responsive-img">
-                        <a target="_blank" href="<?= $value['realisations_link'] ?>">
+                        <a target="_blank" href="<?= $value['realisation_link'] ?>">
                             <div class="backimg">
                                 <div class="back"></div>
                                 <div class="desc">
-                                    <h6><?= $value['realisations_titre'] ?></h6>
+                                    <h6><?= $value['realisation_titre'] ?></h6>
                                     <p>
-                                        <?= $value['realisations_desc'] ?>
+                                        <?= $value['realisation_desc'] ?>
                                     </p>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                         foreach($resultat_comp1 as $value){
                     ?>
                         <p class="col l6 s12">-
-                            <?= $value['competences_intitule'] ?>
+                            <?= $value['competence_intitule'] ?>
                         </p>
                         <?php
                         }
@@ -189,7 +189,7 @@
                         foreach($resultat_comp2 as $value){
                     ?>
                     <p class="col l6 s12">-
-                        <?= $value['competences_intitule'] ?>
+                        <?= $value['competence_intitule'] ?>
                     </p>
                     <?php
                         }
@@ -202,7 +202,7 @@
                         foreach($resultat_comp3 as $value){
                     ?>
                     <p class="col l6 s12">-
-                        <?= $value['competences_intitule'] ?>
+                        <?= $value['competence_intitule'] ?>
                     </p>
                     <?php
                         }
@@ -233,12 +233,12 @@
             ?>
                 <div id="card" class="card">
                     <p id="annee">
-                        <?= $value['annee_debut'] ?>-
-                            <?= $value['annee_fin'] ?>
+                        <?= $value['formation_annee_debut'] ?>-
+                            <?= $value['formation_annee_fin'] ?>
                     </p>
-                    <h5><?= $value['formation_intitulé'] ?><span> <?= $value['annee_courante'] ?> année</span></h5>
+                    <h5><?= $value['formation_intitule'] ?><span> <?= $value['formation_annee_courante'] ?> année</span></h5>
                     <p id="formation_coord">
-                        <?= $value['formation_ecole'] ?> - <span id="formation_ville"><?= $value['formation_ville'] ?> (<?= $value['ville_code_postal'] ?>)</span></p>
+                        <?= $value['formation_ecole'] ?> - <span id="formation_ville"><?= $value['formation_ville'] ?> (<?= $value['formation_ville_code_postal'] ?>)</span></p>
                     <p>
                         <?= $value['formation_description'] ?>
                     </p>

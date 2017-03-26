@@ -8,7 +8,7 @@
 
                            
                            
-                           <input type="hidden" value="<?= $pres['id_presentation'] ?>">
+                           <input type="hidden" value="<?= $pres['presentation_id'] ?>">
 
                           
                            <div class="row">
@@ -16,7 +16,7 @@
                             
                                 <div class="input-field col l6">
                                    
-                                    <textarea name="description" id="description" class="materialize-textarea"><?= $pres['description'] ?></textarea>
+                                    <textarea name="description" id="description" class="materialize-textarea"><?= $pres['presentation_description'] ?></textarea>
                                     <label for="description">Description</label>
 
                                 </div>
@@ -27,7 +27,7 @@
                             
                                 <div class="input-field col l6">
                                    
-                                    <textarea name="apropos" id="apropos" class="materialize-textarea"><?= $pres['apropos'] ?></textarea>
+                                    <textarea name="apropos" id="apropos" class="materialize-textarea"><?= $pres['presentation_apropos'] ?></textarea>
                                     <label for="apropos">A Propos</label>
 
                                 </div>

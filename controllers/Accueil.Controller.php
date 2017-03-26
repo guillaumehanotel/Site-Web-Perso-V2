@@ -12,7 +12,7 @@ $resultat_pres = $reponse_pres->fetchAll();
 
 /*** EXPERIENCES ***/
 
-$requete_expe = "SELECT * from experiences";
+$requete_expe = "SELECT * from experience";
 $reponse_expe = $bdd->query($requete_expe);
 $resultat_expe = $reponse_expe->fetchAll();
 
@@ -22,7 +22,7 @@ $resultat_expe = $reponse_expe->fetchAll();
 
 /*** REALISATIONS ***/
 
-$requete_real = "SELECT * from realisations";
+$requete_real = "SELECT * from realisation";
 $reponse_real = $bdd->query($requete_real);
 $resultat_real = $reponse_real->fetchAll();
 
@@ -34,21 +34,21 @@ $resultat_real = $reponse_real->fetchAll();
 
 /* très bien (1) */
 
-$requete_comp1 = "SELECT * from competences WHERE competences_categorie = 1";
+$requete_comp1 = "SELECT * from competence WHERE competence_categorie = 1";
 $reponse_comp1 = $bdd->query($requete_comp1);
 $resultat_comp1 = $reponse_comp1->fetchAll();
 
 
 /* correctement (2) */
 
-$requete_comp2 = "SELECT * from competences WHERE competences_categorie = 2";
+$requete_comp2 = "SELECT * from competence WHERE competence_categorie = 2";
 $reponse_comp2 = $bdd->query($requete_comp2);
 $resultat_comp2 = $reponse_comp2->fetchAll();
 
 
 /* moyennement (3) */
 
-$requete_comp3 = "SELECT * from competences WHERE competences_categorie = 3";
+$requete_comp3 = "SELECT * from competence WHERE competence_categorie = 3";
 $reponse_comp3 = $bdd->query($requete_comp3);
 $resultat_comp3 = $reponse_comp3->fetchAll();
 
@@ -56,7 +56,7 @@ $resultat_comp3 = $reponse_comp3->fetchAll();
 /*** FORMATIONS ***/
 
 
-$requete_forma = "SELECT * from formations";
+$requete_forma = "SELECT * from formation";
 $reponse_forma = $bdd->query($requete_forma);
 $resultat_forma = $reponse_forma->fetchAll();
 

@@ -18,7 +18,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
         
 
 
-        $expe=$bdd->query("select * from experiences where experiences_id='$id'");
+        $expe=$bdd->query("select * from experience where experience_id='$id'");
         $expe = $expe->fetch();
 
         
@@ -26,17 +26,17 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
         if(!empty($expe)){
 
             //var_dump($expe);
-            $requete = $bdd->prepare("UPDATE experiences SET 
-            experiences_date        = :datea,
-            experiences_duree       = :duree, 
-            experiences_ville       = :ville, 
-            experiences_codepostal  = :codepostal, 
-            experiences_intitule    = :intitule, 
-            experiences_entreprise  = :entreprise, 
-            experiences_type        = :typea,
-            experiences_description = :description, 
-            experiences_ordre       = :ordre 
-            WHERE experiences_id = :id");
+            $requete = $bdd->prepare("UPDATE experience SET
+            experience_date        = :datea,
+            experience_duree       = :duree,
+            experience_ville       = :ville,
+            experience_codepostal  = :codepostal,
+            experience_intitule    = :intitule,
+            experience_entreprise  = :entreprise,
+            experience_type        = :typea,
+            experience_description = :description,
+            experience_ordre       = :ordre
+            WHERE experience_id = :id");
             
             $param = array(
                 'id'          => $id,
@@ -74,7 +74,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
 
     $id = securify((int)$_GET["id"]);
     
-    $reponse = $bdd->query("SELECT * FROM experiences WHERE experiences_id='$id'");
+    $reponse = $bdd->query("SELECT * FROM experience WHERE experience_id='$id'");
     $expe = $reponse->fetch();
 
     // si l'experience existe

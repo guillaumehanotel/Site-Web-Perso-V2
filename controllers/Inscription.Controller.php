@@ -12,7 +12,7 @@ if(!empty($_POST)){
             $pseudo = $_POST["pseudo"];
             $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
 
-            $requete = "INSERT INTO users (login, password) VALUES ('$pseudo','$password')";
+            $requete = "INSERT INTO user (login, password) VALUES ('$pseudo','$password')";
             $bdd->query($requete);
 
         echo $requete;

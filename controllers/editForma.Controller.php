@@ -18,7 +18,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
         
 
 
-        $forma=$bdd->query("select * from formations where formation_id='$id'");
+        $forma=$bdd->query("select * from formation where formation_id='$id'");
         $forma = $forma->fetch();
 
         
@@ -26,14 +26,14 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
         if(!empty($forma)){
 
             
-            $requete = $bdd->prepare("UPDATE formations SET 
-            annee_debut                 = :anneedebut,
-            annee_fin                   = :anneefin, 
-            annee_courante              = :anneecourante, 
-            formation_intitulé          = :intitule, 
+            $requete = $bdd->prepare("UPDATE formation SET
+            formation_annee_debut                 = :anneedebut,
+            formation_annee_fin                   = :anneefin,
+            formation_annee_courante              = :anneecourante,
+            formation_intitule          = :intitule,
             formation_ecole             = :ecole, 
             formation_ville             = :ville,
-            ville_code_postal           = :cp, 
+            formation_ville_code_postal           = :cp,
             formation_description       = :description, 
             formation_lien              = :lien
             WHERE formation_id = :id");
@@ -74,7 +74,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
 
     $id = securify((int)$_GET["id"]);
     
-    $reponse = $bdd->query("SELECT * FROM formations WHERE formation_id='$id'");
+    $reponse = $bdd->query("SELECT * FROM formation WHERE formation_id='$id'");
     $forma = $reponse->fetch();
 
     // si l'experience existe

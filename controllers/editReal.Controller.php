@@ -12,7 +12,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
         
 
 
-        $real=$bdd->query("select * from realisations where realisations_id='$id'");
+        $real=$bdd->query("select * from realisation where realisation_id='$id'");
         $real = $real->fetch();
 
         
@@ -20,11 +20,11 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
         if(!empty($real)){
 
             
-            $requete = $bdd->prepare("UPDATE realisations SET 
-            realisations_link        = :lien,
-            realisations_titre       = :titre, 
-            realisations_desc       = :description
-            WHERE realisations_id = :id");
+            $requete = $bdd->prepare("UPDATE realisation SET
+            realisation_link        = :lien,
+            realisation_titre       = :titre,
+            realisation_desc       = :description
+            WHERE realisation_id = :id");
             
             $param = array(
                 'id'          => $id,
@@ -56,7 +56,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
 
     $id = securify((int)$_GET["id"]);
     
-    $reponse = $bdd->query("SELECT * FROM realisations WHERE realisations_id='$id'");
+    $reponse = $bdd->query("SELECT * FROM realisation WHERE realisation_id='$id'");
     $real = $reponse->fetch();
 
     // si l'experience existe

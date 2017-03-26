@@ -11,7 +11,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
         
 
 
-        $comp=$bdd->query("select * from competences where competences_id='$id'");
+        $comp=$bdd->query("select * from competence where competence_id='$id'");
         $comp = $comp->fetch();
 
         
@@ -19,10 +19,10 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
         if(!empty($comp)){
 
             
-            $requete = $bdd->prepare("UPDATE competences SET 
-            competences_intitule        = :intitule,
-            competences_categorie       = :categorie
-            WHERE competences_id = :id");
+            $requete = $bdd->prepare("UPDATE competence SET
+            competence_intitule        = :intitule,
+            competence_categorie       = :categorie
+            WHERE competence_id = :id");
             
             $param = array(
                 'id'          => $id,
@@ -53,7 +53,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
 
     $id = securify((int)$_GET["id"]);
     
-    $reponse = $bdd->query("SELECT * FROM competences WHERE competences_id='$id'");
+    $reponse = $bdd->query("SELECT * FROM competence WHERE competence_id='$id'");
     $comp = $reponse->fetch();
 
     // si l'experience existe
