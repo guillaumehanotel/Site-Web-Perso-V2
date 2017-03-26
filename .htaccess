@@ -1,8 +1,19 @@
 RewriteEngine On
 
-## Le site ##
-RewriteRule ^index/$      index.php?page=Accueil&%{QUERY_STRING} [L]
 
-## Contact ##
-RewriteRule ^admin/$      index.php?page=Connexion&%{QUERY_SITRNG} [L]
-RewriteRule ^deconnexion/$      index.php?page=Deconnexion&%{QUERY_SITRNG} [L]
+RewriteRule ^index/$      index.php?page=Accueil&%{QUERY_STRING} [L]
+RewriteRule ^login/$      index.php?page=Connexion&%{QUERY_STRING} [L]
+RewriteRule ^deconnexion/$      index.php?page=Deconnexion&%{QUERY_STRING} [L]
+RewriteRule ^admin/$      index.php?page=Administration&%{QUERY_STRING} [L]
+RewriteRule ^ins/$      index.php?page=Inscription&%{QUERY_STRING} [L]
+
+RewriteRule ^supprExpe/$      index.php?page=supprExpe&%{QUERY_STRING} [L]
+RewriteRule ^supprReal/$      index.php?page=supprReal&%{QUERY_STRING} [L]
+RewriteRule ^supprComp/$      index.php?page=supprComp&%{QUERY_STRING} [L]
+RewriteRule ^supprForma/$      index.php?page=supprForma&%{QUERY_STRING} [L]
+
+RewriteRule ^editExpe/$      index.php?page=editExpe&%{QUERY_STRING} [L]
+RewriteRule ^editReal/$      index.php?page=editReal&%{QUERY_STRING} [L]
+RewriteRule ^editComp/$      index.php?page=editComp&%{QUERY_STRING} [L]
+RewriteRule ^editForma/$      index.php?page=editForma&%{QUERY_STRING} [L]
+RewriteRule ^editPres/$      index.php?page=editPres&%{QUERY_STRING} [L]

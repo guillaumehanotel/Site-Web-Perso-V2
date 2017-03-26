@@ -1,6 +1,7 @@
 $(document).ready(function() {
             
             
+    /* Materialize Menu */
     $(".button-collapse").sideNav();
     
    
@@ -71,6 +72,7 @@ $(document).ready(function() {
     
     
     /* Plugin Scrollspy */
+    $('.lien').scrollSpy();
     $('.toplink').scrollSpy();
              
     

@@ -16,7 +16,7 @@
     left: 0;
     top: 0;
     margin-bottom: 0px;
-    z-index: 997;
+    z-index: 990;
 }
 
 
@@ -25,14 +25,17 @@
     background-color: #212121;
 }
 
-/*
+
 
 nav ul{
-  transform: translateX(12%);
-  webkit-transform: translateX(-12%);
+  transform: translateX(8%);
+  webkit-transform: translateX(-8%);
 }
 
-*/
+
+
+
+
 
 
 header .side-nav {
@@ -43,6 +46,18 @@ header .side-nav {
 .redd {
     color: orangered;
 }
+
+.greyy {
+    background-color: #F6F6F6;
+    position: relative;
+    z-index: 40;
+}
+
+.orangee {
+    color : #F4511E;
+}
+
+
 /*
 
 .token {
@@ -73,9 +88,22 @@ main {
     height: 1px;
     width: 1px;
     position:relative;
-    top : 100px;
+    top : 80px;
 
 }
+
+
+.lien {
+    height: 1px;
+    width: 1px;
+    position:relative;
+    top : 15px;
+}
+
+#lien0 {
+    bottom: 100px;
+}
+
 
 
 
@@ -84,7 +112,7 @@ main {
 }
 
 
-.divider {
+.dividera {
     margin-top: 190px;
 }
 
@@ -114,7 +142,10 @@ main {
 
 
 
-
+#propos {
+    padding-top : 5px;
+    padding-bottom : 10px;
+}
 
 
 
@@ -649,7 +680,9 @@ main {
 
 
 i.fa {
-    color: #24292e;
+    /*color: #24292e;*/ /*noir*/
+    color: #F4511E;  /* orange */
+    
 }
 
 
