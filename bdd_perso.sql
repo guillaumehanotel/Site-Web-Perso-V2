@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  127.0.0.1
--- Généré le :  Mer 12 Avril 2017 à 09:16
+-- Généré le :  Mer 12 Avril 2017 à 10:05
 -- Version du serveur :  5.7.14
 -- Version de PHP :  7.0.10
 
@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS `experience` (
   `experience_ordre` int(11) NOT NULL,
   `experience_codepostal` int(5) NOT NULL,
   PRIMARY KEY (`experience_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 --
 -- Vider la table avant d'insérer `experience`
@@ -175,8 +175,8 @@ TRUNCATE TABLE `realisation`;
 --
 
 INSERT INTO `realisation` (`realisation_id`, `realisation_link`, `realisation_titre`, `realisation_desc`, `realisation_picture_path`) VALUES
-(1, 'https://github.com/guillaumehanotel', 'Github', 'Retrouvez mon code', '\\Site-Web-Perso-V2/images/github-logo.png'),
-(13, 'http://abiflizera.net/', 'Abiflizera', 'Projet SEO', '\\Site-Web-Perso-V2/images/Abiflizera200.png');
+(1, 'https://github.com/guillaumehanotel', 'Github', 'Retrouvez mon code', '\\Guillaume_Hanotel/images/github-logo.png'),
+(13, 'http://abiflizera.net/', 'Abiflizera', 'Projet SEO', '\\Guillaume_Hanotel/images/Abiflizera200.png');
 
 -- --------------------------------------------------------
 
