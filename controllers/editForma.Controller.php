@@ -51,12 +51,9 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
                 'lien' => securify($_POST['lien'])
             );
             
-            //var_dump($param);
 
-            
             $requete->execute($param);
                
-            
 
             header('Location: '.BASE_URL.'/admin/');
 

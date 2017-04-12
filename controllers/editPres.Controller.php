@@ -29,8 +29,6 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
                 'apropos' => $_POST['apropos'],
                 'description' => $_POST['description']
             );
-            
-            //var_dump($param);
 
             
             $requete->execute($param);

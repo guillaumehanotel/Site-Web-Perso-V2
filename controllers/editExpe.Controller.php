@@ -52,11 +52,7 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
             );
              
             $requete->execute($param);
-               
-            
-            
-            
-            //var_dump($requete);
+
 
             header('Location: '.BASE_URL.'/admin/');
 

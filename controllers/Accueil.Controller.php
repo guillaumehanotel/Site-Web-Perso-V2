@@ -67,9 +67,9 @@ if(isset($_POST['mail'])){
 
     
     if(isset($_POST['nom']) && !empty($_POST['nom']) &&
-    isset($_POST['email']) && !empty($_POST['email']) &&
-    isset($_POST['sujet']) && !empty($_POST['sujet']) &&
-    isset($_POST['message']) && !empty($_POST['message'])){
+        isset($_POST['email']) && !empty($_POST['email']) &&
+        isset($_POST['sujet']) && !empty($_POST['sujet']) &&
+        isset($_POST['message']) && !empty($_POST['message'])){
         
         $nom = securify($_POST['nom']);
         $mail = securify($_POST['email']);
@@ -146,7 +146,7 @@ if(isset($_POST['mail'])){
         $_SESSION["erreur"] = "Champs invalides !";
     }
       
-    
+
 } else {
     //Formulaire pas envoyé
 }
@@ -155,28 +155,9 @@ if(isset($_POST['mail'])){
 
 if(!empty($_SESSION["erreur"])){
 	
-	$token_error = true;
-	
+    $token_error = true;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -3,7 +3,7 @@
 if (!empty($_POST)){ // si le formulaire a été envoyé
 
     if(isset($_POST['intitule']) && !empty($_POST['intitule']) &&
-       isset($_POST['categorie']) && !empty($_POST['categorie'])){   
+        isset($_POST['categorie']) && !empty($_POST['categorie'])){
 
 
 
@@ -29,13 +29,9 @@ if (!empty($_POST)){ // si le formulaire a été envoyé
                 'intitule' => securify($_POST['intitule']),
                 'categorie' => securify($_POST['categorie'])
             );
-            
-            //var_dump($param);
 
             
             $requete->execute($param);
-               
-            
 
             header('Location: '.BASE_URL.'/admin/');
 

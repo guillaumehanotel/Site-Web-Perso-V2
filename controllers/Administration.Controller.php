@@ -49,14 +49,14 @@ $resultat_forma = $reponse_forma->fetchAll();
 if(isset($_POST['experience'])){
     
     if(isset($_POST['date']) && !empty($_POST['date']) &&
-       isset($_POST['duree']) && !empty($_POST['duree']) &&
-       isset($_POST['ville']) && !empty($_POST['ville']) &&
-       isset($_POST['cp']) && !empty($_POST['cp']) &&
-       isset($_POST['intitule']) && !empty($_POST['intitule']) &&
-       isset($_POST['entreprise']) && !empty($_POST['entreprise']) &&
-       isset($_POST['type']) && !empty($_POST['type']) &&
-       isset($_POST['description']) && !empty($_POST['description']) &&
-       isset($_POST['ordre']) && !empty($_POST['ordre'])){   
+        isset($_POST['duree']) && !empty($_POST['duree']) &&
+        isset($_POST['ville']) && !empty($_POST['ville']) &&
+        isset($_POST['cp']) && !empty($_POST['cp']) &&
+        isset($_POST['intitule']) && !empty($_POST['intitule']) &&
+        isset($_POST['entreprise']) && !empty($_POST['entreprise']) &&
+        isset($_POST['type']) && !empty($_POST['type']) &&
+        isset($_POST['description']) && !empty($_POST['description']) &&
+        isset($_POST['ordre']) && !empty($_POST['ordre'])){
         
         $reload = true;
         
@@ -84,8 +84,8 @@ if(isset($_POST['experience'])){
                                                 :ordre
                                             )"
                                   );
-        
-        
+
+
         $param = array(
             'date' => securify($_POST['date']),
             'duree' => securify($_POST['duree']),
@@ -104,7 +104,7 @@ if(isset($_POST['experience'])){
     } else {
         $_SESSION["erreur"] = "Champs invalides !";
     }
-    
+
 } else {
     // formulaire pas envoyé
 }
@@ -123,9 +123,9 @@ if(isset($_POST['experience'])){
 if(isset($_POST['realisation'])){
     
     if(isset($_POST['titre']) && !empty($_POST['titre']) &&
-       isset($_POST['description']) && !empty($_POST['description']) &&
-       isset($_POST['lien']) && !empty($_POST['lien']) &&
-       isset($_FILES['avatar'])){
+        isset($_POST['description']) && !empty($_POST['description']) &&
+        isset($_POST['lien']) && !empty($_POST['lien']) &&
+        isset($_FILES['avatar'])){
         
         $reload = true;
 
@@ -211,7 +211,7 @@ if(isset($_POST['realisation'])){
     } else {
         $_SESSION["erreur"] = "Champs invalides !";
     }
-    
+
 } else {
     // formulaire pas envoyé
 }
@@ -228,7 +228,7 @@ if(isset($_POST['realisation'])){
 if(isset($_POST['competence'])){
     
     if(isset($_POST['intitule']) && !empty($_POST['intitule']) &&
-       isset($_POST['categorie']) && !empty($_POST['categorie'])){   
+        isset($_POST['categorie']) && !empty($_POST['categorie'])){
         
         $reload = true;
         
@@ -255,7 +255,7 @@ if(isset($_POST['competence'])){
     } else {
         $_SESSION["erreur"] = "Champs invalides !";
     }
-    
+
 } else {
     // formulaire pas envoyé
 }
@@ -337,20 +337,6 @@ if(!empty($_SESSION["erreur"]))
 	$token_error = true;
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

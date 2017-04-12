@@ -32,22 +32,22 @@ if(isset($_POST['login'])) {
             }
           
         } else {
-		  $_SESSION["erreur"] = "Login incorrect !";
+            $_SESSION["erreur"] = "Login incorrect !";
         }
           
     } else {
         $_SESSION["erreur"] = "Champs invalides !";
-	}
+    }
 
 } else {
-	// formulaire pas envoyé
+    // formulaire pas envoyé
 }
 
 if(!empty($_SESSION["erreur"]))
 {
 	
-	$token_error = true;
-	
+    $token_error = true;
+
 }
 
 
