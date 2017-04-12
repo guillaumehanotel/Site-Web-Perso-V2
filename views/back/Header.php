@@ -97,10 +97,6 @@
            
            
            
-            
-            
-    <a href='".BASE_URL."/deconnexion/'>Deconnexion</a>
-
 
 
 

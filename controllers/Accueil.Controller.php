@@ -64,8 +64,7 @@ $resultat_forma = $reponse_forma->fetchAll();
 
 
 if(isset($_POST['mail'])){
-    
-    //$token_error = true;
+
     
     if(isset($_POST['nom']) && !empty($_POST['nom']) &&
     isset($_POST['email']) && !empty($_POST['email']) &&
@@ -137,11 +136,7 @@ if(isset($_POST['mail'])){
                 echo "marche pas";
             }
             //==========
-            
-            
-           
-            
-            
+
             
         } else {
             $_SESSION["erreur"] = "Adresse Mail incorrect";

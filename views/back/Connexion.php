@@ -5,33 +5,33 @@
     
     
     
- 	<div id="connexion" class="container">
+    <div id="connexion" class="container">
        
        
 
         <div class="row">
           
 
-        <!-- Token Error  -->
-        <?php
+            <!-- Token Error  -->
+            <?php
             if(isset($token_error) && $token_error == true){
-        ?>
+                ?>
         
-        <div hidden="hidden" id="token_error" class="token"><?= $_SESSION["erreur"] ?></div>
+                <div hidden="hidden" id="token_error" class="token"><?= $_SESSION["erreur"] ?></div>
         
-        <?php
+                <?php
             }
             $token_error = false;
             unset($_SESSION["erreur"]);
         
-        ?>
+            ?>
            
            
             
             <form method="post" name="login" action="" class="col l6 s12 offset-l3">
 
           
-              <h4>CONNEXION</h4>
+                <h4>CONNEXION</h4>
        
                 <div class="row">
                     <div class="input-field col l8 s6 offset-l2">

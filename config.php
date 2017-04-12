@@ -1,8 +1,6 @@
 <?php
 
 
-
-
 define('ROOT_DIR', dirname(__FILE__));
 define('ROOT',dirname(ROOT_DIR));
 define('DS', DIRECTORY_SEPARATOR);

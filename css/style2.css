@@ -1,5 +1,6 @@
 
 
+
 /* MENU */
 
 #menu1 {
@@ -577,45 +578,45 @@ main {
 
    /* label focus color */
 .input-field input[type=email]:focus + label {
-     color: #e0e0e0;
-   }
-   /* label underline focus color */
+    color: #e0e0e0;
+}
+/* label underline focus color */
 .input-field input[type=email]:focus {
-     border-bottom: 1px solid #e0e0e0;
-     box-shadow: 0 1px 0 0 #e0e0e0;
-   }
-   /* valid color */
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 1px 0 0 #e0e0e0;
+}
+/* valid color */
 .input-field input[type=email].valid {
-     border-bottom: 1px solid #e0e0e0;
-     box-shadow: 0 1px 0 0 #e0e0e0;
-   }
-   /* invalid color */
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 1px 0 0 #e0e0e0;
+}
+/* invalid color */
 .input-field input[type=email].invalid {
-     border-bottom: 1px solid #e0e0e0;
-     box-shadow: 0 1px 0 0 #e0e0e0;
-   }
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 1px 0 0 #e0e0e0;
+}
 
 
 
-   /* label focus color */
+/* label focus color */
 .input-field input[type=password]:focus + label {
-     color: #e0e0e0;
-   }
-   /* label underline focus color */
+    color: #e0e0e0;
+}
+/* label underline focus color */
 .input-field input[type=password]:focus {
-     border-bottom: 1px solid #e0e0e0;
-     box-shadow: 0 1px 0 0 #e0e0e0;
-   }
-   /* valid color */
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 1px 0 0 #e0e0e0;
+}
+/* valid color */
 .input-field input[type=password].valid {
-     border-bottom: 1px solid #e0e0e0;
-     box-shadow: 0 1px 0 0 #e0e0e0;
-   }
-   /* invalid color */
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 1px 0 0 #e0e0e0;
+}
+/* invalid color */
 .input-field input[type=password].invalid {
-     border-bottom: 1px solid #e0e0e0;
-     box-shadow: 0 1px 0 0 #e0e0e0;
-   }
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 1px 0 0 #e0e0e0;
+}
 
 
 
