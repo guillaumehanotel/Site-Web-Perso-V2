@@ -40,5 +40,5 @@ function alertMsg($string){
 function securify($str){
     $invalid_characters = array("$", "%", "#", "<", ">", "|");
     $string = str_replace($invalid_characters, "", $str);
-    return addslashes(htmlspecialchars($string));
+    return htmlspecialchars($string);
 }
